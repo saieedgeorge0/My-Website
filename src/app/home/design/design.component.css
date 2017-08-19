@@ -1,0 +1,158 @@
+.container-fluid {
+    margin: 75px auto 0px;
+    padding-bottom: 120px;
+    transition: opacity 1s ease;
+}
+
+.row {
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.tile {
+    height: 360px;
+    width: 360px;
+    border-radius: 3px;
+    position: relative;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+.tile__imgs {
+    display: block;
+    position: relative;
+    width: 100%;
+    padding-top: 37px;
+}
+
+.desktop, .mobile {
+    box-shadow: -4px 13px 23px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+}
+
+.desktop {
+    width: 215px;
+    height: 134px;
+    margin-left: 31px;
+    margin-right: 30px;
+    border-radius: 3px;
+}
+
+.mobile {
+    width: 50px;
+    height: 89px;
+    position: absolute;
+    bottom: 0;
+    border-radius: 2px;
+}
+
+.small-icon {
+    height: 50px;
+}
+
+.tile__imgs__mobile {
+    display: block;
+    position: relative;
+    width: 100%;
+    padding-top: 33px;
+    margin-left: 6px;
+}
+
+.mobile-triple {
+    width: 72px;
+    margin-left: 27px;
+    border-radius: 3px;
+    box-shadow: -4px 17px 23px rgba(0, 0, 0, 0.5);
+}
+
+.tile__info {
+    margin-left: 33px;
+    margin-top: 32px;
+}
+
+.tile__info * {
+    display: block;
+}
+
+.client__value {
+    padding-bottom: 15px;
+}
+
+.client__label, .project__label {
+    font-family: 'AlexandriaFLF', serif;
+    text-transform: uppercase;
+    font-size: 21px;
+}
+
+.client__value, .project__value {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.tile__tech {
+    position: absolute;
+    bottom: 45px;
+    right: 25px;
+}
+
+.tech-svg {
+    height: 17px;
+}
+
+.year {
+    position: absolute;
+    font-size: 17px;
+    font-weight: 100;
+    bottom: 15px;
+    right: 25px;
+}
+
+.winner {
+    position: absolute;
+    z-index: 2;
+    top: -2px;
+    left: -1px;
+    width: 32%;
+}
+
+
+.fb {
+    background-color: rgba(19, 76, 165, 1);
+    box-shadow: -9px 9px 0 rgba(19, 76, 165, 0.23);
+    animation: container-fade 0.5s;
+}
+
+.pres {
+    background-color: rgba(33, 92, 69, 1);
+    box-shadow: -9px 9px 0 rgba(33, 92, 69, 0.23);
+    animation: container-fade 1s;
+}
+
+.aig {
+    background-color: rgba(92, 27, 115, 1);
+    box-shadow: -9px 9px 0 rgba(92, 27, 115, 0.23);
+    animation: container-fade 1.5s;
+}
+
+.uw {
+    background-color: rgba(117, 60, 58, 1);
+    box-shadow: -9px 9px 0 rgba(117, 60, 58, 0.23);
+    animation: container-fade 2s;
+}
+
+.ig {
+    background-color: rgba(66, 46, 39, 1);
+    box-shadow: -9px 9px 0 rgba(66, 46, 39, 0.23);
+    animation: container-fade 2.5s;
+}
+
+.poly {
+    background-color: rgba(47, 54, 98, 1);
+    box-shadow: -9px 9px 0 rgba(47, 54, 98, 0.23);
+    animation: container-fade 3s;
+}
+
+@keyframes container-fade {
+    0% {opacity: 0; transform: translateX(-70px);}
+    100% {opacity: 1; transform: translateX(0px);}
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="60px" viewBox="0 0 32 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>next</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Project" transform="translate(-1960.000000, -1282.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <g id="Group-2" transform="translate(1833.000000, 1196.000000)">
+                <g id="next" transform="translate(127.000000, 86.000000)">
+                    <path d="M30.8802133,28.4399003 L2.93381331,0.493500399 C2.27581278,-0.164500133 1.22052891,-0.164500133 0.562528379,0.493500399 C-0.0954721526,1.15150093 -0.0954721526,2.2067848 0.562528379,2.86478533 L27.3170783,29.6193353 L0.562528379,56.3738852 C-0.0954721526,57.0318857 -0.0954721526,58.0871696 0.562528379,58.7451701 C0.885321093,59.0679628 1.31984975,59.2417743 1.74196329,59.2417743 C2.16407684,59.2417743 2.5986055,59.0803779 2.92139821,58.7451701 L30.8677981,30.7987702 C31.5257987,30.1531847 31.5257987,29.0854858 30.8802133,28.4399003 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,167 @@
+a:link, a:visited, a:hover, a:active {
+    color: #165535;
+}
+
+.page {
+    background: #165535;
+}
+
+.header {
+    padding: 70px 85px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__intro {
+    font-size: 45px;
+    font-weight: 600;
+    margin-right: 17px;
+}
+
+.header__name {
+    font-size: 45px;
+    font-weight: 100;
+}
+
+.returnhome {
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 30px;
+    height: 45px;
+    width: 45px;
+}
+
+.returnhome-svg {
+    height: 45px;
+    width: 45px;
+}
+
+.returnhome:hover #Rectangle-2 {
+    fill: white;
+}
+
+.returnhome:hover #right-arrow {
+    fill: #165535;
+}
+
+.cover-img {
+    display: flex;
+    align-items: center;
+}
+
+.rfc-cover {
+    width: 45%;
+    position: relative;
+    margin: 50px auto -60px;
+}
+
+.description, .link, .downloads {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.project-details {
+    background: #202122;
+    padding-bottom: 70px;
+}
+
+.project-heading {
+    padding: 70px 85px 50px 85px;
+}
+
+.client-label {
+    text-transform: uppercase;
+    font-family: 'AlexandriaFLF', serif;
+    display: block;
+    font-size: 25px;
+    margin-bottom: -10px;
+}
+
+.client-name {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.project-nav {
+    float: right;
+    padding: 70px 85px 0 0;
+    font-size: 25px;
+}
+
+.project-num {
+    font-weight: 200;
+}
+
+.project-num-count {
+    font-weight: 900;
+}
+
+.project-arrows {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.arrow-fwd, .arrow-back {
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+}
+
+.arrow-fwd {
+    padding-left: 15px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.arrow-fwd:hover {
+    transform: translateX(10px);
+}
+
+.arrow-fwd #Project-fwd {
+    transition: fill 0.5s ease-in-out;
+}
+
+.arrow-fwd:hover #Project-fwd {
+    fill: #256987;
+}
+
+.arrow-back {
+    transition: transform 0.5s ease-in-out;
+}
+
+.arrow-back #Project-back {
+    transition: fill 0.5s ease-in-out;
+}
+
+.arrow-back:hover #Project-back {
+    fill: #3F362A;
+}
+
+.arrow-back:hover {
+    transform: translateX(-10px);
+}
+
+.project-details-in {
+    margin: 0px 120px 0px 120px;
+}
+
+.description-label {
+    font-family: 'AlexandriaFLF', serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    width: 250px;
+    color: gray;
+}
+
+.description-content {
+    font-weight: 200;
+    font-size: 22px;
+    margin-top: -2px;
+    width: 930px;
+}
+
+.description {
+    padding: 10px 0;
+}

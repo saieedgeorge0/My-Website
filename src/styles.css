@@ -1,1 +1,76 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'AlexandriaFLF';
+    src: url('./assets/fonts/AlexandriaFLF.ttf') format('truetype');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif !important;
+    color: white !important;
+    background: #202122;
+}
+
+*:focus {
+    outline: none !important;
+}
+
+.loading {
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity .8s ease-in-out;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #101112;
+    z-index: -1;
+}
+
+app-root:empty + .loading {
+    opacity: 1;
+    z-index: 100;
+}
+
+.loader {
+    border: 10px solid #f3f3f3;
+    border-top: 10px solid #165535;
+    border-radius: 30%;
+    width: 145px;
+    height: 145px;
+    animation: spin 2s linear infinite;
+}
+
+.initials {
+    position: fixed;
+    z-index: 30;
+    font-weight: 200;
+    font-size: 55px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0);
+}
+ 
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 15px;
+    background: rgba(255,255,255,0.3);
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    25% { border-right: 10px solid #256987;}
+    50% { border-bottom: 10px solid #662835;}
+    75% { border-left: 10px solid #2D2461;}
+    100% { transform: rotate(360deg); }
+}

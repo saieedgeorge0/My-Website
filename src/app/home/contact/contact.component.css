@@ -1,0 +1,83 @@
+.form {
+    padding: 40px 85px 60px;
+}
+
+.content {
+    background: none;
+    border: none;
+    color: #ddd;
+    font-size: 23px;
+    padding: 36px 0 20px;
+    font-weight: 200;
+    width: 600px;
+}
+
+.submit {
+    padding: 10px 0 0 0;
+    width: auto;
+    text-transform: uppercase;
+    font-family: 'AlexandriaFLF', serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-bottom: solid 2px white;
+    margin: 0 auto;
+    cursor: pointer;
+    -webkit-transition: color 1s ease-out, border 1s;
+}
+
+.submit:hover {
+    color: #00AB6C;
+    border-bottom: solid 2px #00AB6C;
+}
+
+.name {
+    padding: 0 0 0 75px;
+    font-size: 27px;
+    width: 550px;
+}
+
+.position {
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid 1px gray;;
+}
+
+.question {
+    border: none;
+}
+
+.submission {
+    display: flex;
+    justify-content: center;
+}
+
+.question-name {
+    float: left;
+    margin-top: 32px;
+    margin-right: 5px;
+}
+
+.t-name {
+    animation: container-fade 0.5s;
+}
+
+.t-email {
+    animation: container-fade 1s;
+}
+
+.t-question {
+     animation: container-fade 1.5s;
+}
+
+.t-submit {
+    animation: container-fade 2s;
+}
+
+.content::-webkit-input-placeholder {
+    color: gray;
+}
+
+@keyframes container-fade {
+    0% {opacity: 0; transform: translateX(-70px);}
+    100% {opacity: 1; transform: translateX(0px);}
+}

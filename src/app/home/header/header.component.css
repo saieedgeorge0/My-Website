@@ -1,0 +1,185 @@
+/* element styling */
+a:link, a:visited, a:hover, a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+/* Header wide styling */
+.header {
+    padding: 75px 85px 0px;
+}
+
+
+/* Name styling */
+.header__intro {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.header__name {
+    font-size: 45px;
+    font-weight: 100;
+}
+
+
+/* all icon styling */
+.icon {
+    display: inline-block;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+.icons {
+    float: right;
+    display: block;
+}
+
+svg {
+    width: 50px;
+    height: 50px;
+}
+
+.medium {
+    margin-top: -40px;
+}
+
+/* Spotify icon styling */
+.spotify:hover #spotify-circle {
+    stroke: #84bd00;
+}
+
+.spotify:hover #spotify-icon {
+    fill: #84bd00;
+}
+
+#spotify-circle {
+    transition: stroke 1s ease;
+}
+
+#spotify-icon {
+    transition: fill 1s ease;
+}
+
+/* Facebook icon styling */
+.facebook:hover #facebook-circle {
+    stroke: #3b5998;
+}
+
+.facebook:hover #facebook-icon {
+    fill: #3b5998;
+}
+
+#facebook-circle {
+    transition: stroke 1s ease;
+}
+
+#facebook-icon {
+    transition: fill 1s ease;
+}
+
+/* Github icon styling */
+.github:hover #github-circle {
+    stroke: #4078c0;
+}
+
+.github:hover #github-icon {
+    fill: #4078c0;
+}
+
+#github-circle {
+    transition: stroke 1s ease;
+}
+
+#github-icon {
+    transition: fill 1s ease;
+}
+
+/* LinkedIn icon styling */
+.linkedin:hover #linkedin-circle {
+    stroke: #0077b5;
+}
+
+.linkedin:hover #linkedin-icon {
+    fill: #0077b5;
+}
+
+#linkedin-circle {
+    transition: stroke 1s ease;
+}
+
+#linkedin-icon {
+    transition: fill 1s ease;
+}
+
+/* Resume icon styling */
+.resume:hover #resume-circle {
+    stroke: #8f1ac9;
+}
+
+.resume:hover #resume-icon {
+    fill: #8f1ac9;
+}
+
+#resume-circle {
+    transition: stroke 1s ease;
+}
+
+#resume-icon {
+    transition: fill 1s ease;
+}
+
+/* Contact icon styling */
+.contact:hover #contact-circle {
+    stroke: #a0102a;
+}
+
+.contact:hover #contact-icon {
+    fill: #a0102a;
+}
+
+#contact-circle {
+    transition: stroke 1s ease;
+}
+
+#contact-icon {
+    transition: fill 1s ease;
+}
+
+/* Categories Styling */
+.categories {
+    margin-top: 55px;
+}
+
+.category {
+    display: inline-block;
+    font-weight: 100;
+    font-size: 23px;
+    margin-right: 128px;
+    cursor: pointer;
+}
+
+.category:hover .select{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.select {
+    opacity: 0;
+    height: 2px;
+    width: 50%;
+    margin: 13px auto 0px;
+    background: white;
+    transition: opacity 1s ease;
+}
+
+.active {
+    opacity: 1;
+}

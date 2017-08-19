@@ -1,0 +1,8 @@
+.page {
+    background: #101112;
+    margin: 25px 25px;
+}
+
+.hidden {
+    display: none;
+}
