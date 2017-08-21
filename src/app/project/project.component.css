@@ -37,9 +37,18 @@ a:link, a:visited, a:hover, a:active {
     width: 45px;
 }
 
-.returnhome:hover #Rectangle-2 {
+#circle {
+    fill: #165535;
+    transition: fill 0.5s ease-in-out;
+ }
+
+.returnhome:hover #circle {
     fill: white;
 }
+
+#right-arrow {
+    transition: fill 0.5s ease-in-out;
+}  
 
 .returnhome:hover #right-arrow {
     fill: #165535;
@@ -159,7 +168,7 @@ a:link, a:visited, a:hover, a:active {
     font-weight: 200;
     font-size: 22px;
     margin-top: -2px;
-    width: 930px;
+    width: 85%;
 }
 
 .description {

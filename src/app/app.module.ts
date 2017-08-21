@@ -91,7 +91,7 @@ import { ProjectService } from './services/project.service';
       },
       {
         path: '**',
-        component: DevelopmentComponent
+        redirectTo: '/home/development'
       }
     ])
   ],
