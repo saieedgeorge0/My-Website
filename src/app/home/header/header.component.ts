@@ -12,9 +12,10 @@ export class HeaderComponent {
   public currentCategory;
   public project;
   public photography;
+
   public possibleCategories = ['development', 'design', 'photography', 'about', 'contact'];
 
-  constructor(private homeService: HomeService, location: Location, router: Router) {
+  constructor(private homeService: HomeService, location: Location, public router: Router) {
     router.events.subscribe((val) => {
         this.currentCategory = 'development';
         for (let i = 0; i < this.possibleCategories.length; i++) {
@@ -40,6 +41,10 @@ export class HeaderComponent {
   private changeCategory(category) {
     this.currentCategory = category;
     this.homeService.setHomeState(category);
+  }
+
+  private toBlog(): void {
+    window.location.href = 'https://medium.com/george-saieed';
   }
 }
 

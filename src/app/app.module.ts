@@ -10,11 +10,11 @@ import { PhotographyProjComponent } from './photography/photography.component';
 import { AboutComponent } from './home/about/about.component';
 import { ContactComponent } from './home/contact/contact.component';
 import { ProjectComponent } from './project/project.component';
+import { BlogComponent } from './blog/blog.component';
 
 import { AppComponent } from './app.component';
 
 import { HomeService } from './services/home.service';
-import { ProjectService } from './services/project.service';
 
 
 @NgModule({
@@ -28,7 +28,8 @@ import { ProjectService } from './services/project.service';
     AboutComponent,
     ContactComponent,
     ProjectComponent,
-    PhotographyProjComponent
+    PhotographyProjComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule,
@@ -52,6 +53,10 @@ import { ProjectService } from './services/project.service';
         path: 'photography',
         redirectTo: '/photography/spain',
         pathMatch: 'full'
+      },
+      {
+        path: 'blog',
+        component: BlogComponent
       },
       {
         path: 'home/development',
@@ -96,8 +101,7 @@ import { ProjectService } from './services/project.service';
     ])
   ],
   providers: [
-    HomeService,
-    ProjectService
+    HomeService
   ],
   bootstrap: [AppComponent]
 })
