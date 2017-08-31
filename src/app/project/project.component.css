@@ -1,9 +1,12 @@
 a:link, a:visited, a:hover, a:active {
-    color: #165535;
+    color: white;
+    text-decoration: underline;
 }
 
-.page {
-    background: #165535;
+.winner {
+    position: absolute;
+    visibility: hidden;
+    z-index: 0;
 }
 
 .header {
@@ -30,6 +33,7 @@ a:link, a:visited, a:hover, a:active {
     margin-right: 30px;
     height: 45px;
     width: 45px;
+    z-index: 5;
 }
 
 .returnhome-svg {
@@ -38,12 +42,11 @@ a:link, a:visited, a:hover, a:active {
 }
 
 #circle {
-    fill: #165535;
     transition: fill 0.5s ease-in-out;
  }
 
 .returnhome:hover #circle {
-    fill: white;
+    fill: white !important;
 }
 
 #right-arrow {
@@ -51,7 +54,7 @@ a:link, a:visited, a:hover, a:active {
 }  
 
 .returnhome:hover #right-arrow {
-    fill: #165535;
+    fill: rgba(0, 0, 0, 0.7)
 }
 
 .cover-img {

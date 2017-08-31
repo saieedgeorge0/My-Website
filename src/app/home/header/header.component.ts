@@ -17,6 +17,7 @@ export class HeaderComponent {
 
   constructor(private homeService: HomeService, location: Location, public router: Router) {
     router.events.subscribe((val) => {
+        window.scrollTo(0, 0);
         this.currentCategory = 'development';
         for (let i = 0; i < this.possibleCategories.length; i++) {
           if (this.possibleCategories[i] === location.path().slice(6)) {
