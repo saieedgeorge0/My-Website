@@ -16,6 +16,11 @@
     position: relative;
     margin: 20px auto;
     cursor: pointer;
+    transition: transform 0.4s ease-in-out;
+}
+
+.tile:hover {
+    transform: translateY(-5px);
 }
 
 .tile__imgs {

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { HomeService } from './../services/home.service';
 import { Router } from '@angular/router';
 import { Location } from '@angular/common';
@@ -19,6 +19,11 @@ export class ProjectComponent implements OnInit {
         this.currProj = location.path().slice(9);
     });
   }
+
+  public dev = ['rfc', 'hh', 'stmcoc', 'uofc', 'uncommon', 'calc', 'old'];
+  public des = ['fb', 'pres', 'aig', 'uw', 'ig', 'poly'];
+  public fwdProj = '';
+  public backProj = '';
 
   public type: string;
   public number: string;
@@ -44,6 +49,36 @@ export class ProjectComponent implements OnInit {
 
   public returnHome(): void {
     this.router.navigate(['home', this.homeService.currentHomeState]);
+  }
+
+  public fwd(projNumber: string): void {
+    if (this.type === 'development') {
+      if (projNumber === this.dev.length.toString()) {
+        projNumber = '0';
+      }
+      this.fwdProj = this.dev[projNumber];
+    }
+    if (this.type === 'design') {
+      if (projNumber === this.des.length.toString()) {
+        projNumber = '0';
+      }
+      this.fwdProj = this.des[projNumber];
+    }
+  }
+
+  public back(projNumber: string): void {
+    if (this.type === 'development') {
+      if (projNumber === '1') {
+        projNumber = (this.dev.length + 1).toString();
+      }
+      this.backProj = this.dev[+projNumber - 2];
+    }
+    if (this.type === 'design') {
+      if (projNumber === '1') {
+        projNumber = (this.des.length + 1).toString();
+      }
+      this.backProj = this.des[+projNumber - 2];
+    }
   }
 }
 

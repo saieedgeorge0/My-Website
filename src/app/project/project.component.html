@@ -23,7 +23,7 @@
     </div>
 
     <div class="cover-img">
-        <img class="rfc-cover" src="./../assets/img/project/rfc/rfc-cover.png">
+        <img class="rfc-cover" src="./../assets/img/project/{{this.currProj}}/header.png">
     </div>
 
     <div class="project-details">
@@ -31,7 +31,7 @@
             <span class="project-num">{{type}} </span>
             <span class="project-num-count"> {{number}}</span>
             <div class="project-arrows">
-                <svg class="arrow-back" width="32px" height="60px" viewBox="0 0 32 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <a href="/project/{{backProj}}"><svg (click)="back(number)" class="arrow-back" width="32px" height="60px" viewBox="0 0 32 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <title>next</title>
                     <desc>Created with Sketch.</desc>
                     <defs></defs>
@@ -44,8 +44,8 @@
                             </g>
                         </g>
                     </g>
-                </svg>
-                <svg class="arrow-fwd" width="32px" height="60px" viewBox="0 0 32 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                </svg></a>
+                <a href="/project/{{fwdProj}}"><svg (click)="fwd(number)" class="arrow-fwd" width="32px" height="60px" viewBox="0 0 32 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <title>next</title>
                     <desc>Created with Sketch.</desc>
                     <defs></defs>
@@ -58,7 +58,7 @@
                             </g>
                         </g>
                     </g>
-                </svg>
+                </svg></a>
             </div>
         </div>
         <div class="project-heading">
@@ -96,8 +96,6 @@
             </div>
         </div>
         <div class="technologies">
-
         </div>
     </div>
-    heyy
 </div>

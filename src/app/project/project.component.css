@@ -60,12 +60,22 @@ a:link, a:visited, a:hover, a:active {
 .cover-img {
     display: flex;
     align-items: center;
+    /* Change on resize */
+    height: 300px;
 }
 
 .rfc-cover {
     width: 45%;
     position: relative;
     margin: 50px auto -60px;
+    -webkit-animation: container-fade 3s ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: container-fade 3s ease-in-out;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: container-fade 3s ease-in-out;
+    -o-animation-iteration-count: infinite;
+    animation: container-fade 3s ease-in-out;
+    animation-iteration-count: infinite;
 }
 
 .description, .link, .downloads {
@@ -176,4 +186,10 @@ a:link, a:visited, a:hover, a:active {
 
 .description {
     padding: 10px 0;
+}
+
+@keyframes container-fade {
+    0% {opacity: 1; transform: translateY(5px);}
+    50% {opacity: 1; transform: translateY(-5px);}
+    100% {opacity: 1; transform: translateY(5px);}
 }
