@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { HomeService } from './../services/home.service';
-import { Router } from '@angular/router';
+import { Router, ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
 import { rfc, hh, stmcoc, uofc, uncommon, calc, old, fb, pres, aig, uw, ig, poly } from './project.info';
 
@@ -13,7 +13,7 @@ export class ProjectComponent implements OnInit {
 
   public currProj: string;
 
-  constructor(private location: Location, private router: Router, private homeService: HomeService) {
+  constructor(private location: Location, private router: Router, private homeService: HomeService, private route: ActivatedRoute) {
     router.events.subscribe((val) => {
         window.scrollTo(0, 0);
         this.currProj = location.path().slice(9);
@@ -64,6 +64,16 @@ export class ProjectComponent implements OnInit {
       }
       this.fwdProj = this.des[projNumber];
     }
+    if (this.router.navigated === false) {
+      // Case when route was not used yet
+      this.router.navigateByUrl(`/project/${this.fwdProj}`);
+    } else {
+      // Case when route was used once or more
+      this.router.navigateByUrl(`/home`).then(
+        () => {
+          this.router.navigateByUrl(`/project/${this.fwdProj}`);
+        });
+    }
   }
 
   public back(projNumber: string): void {
@@ -78,6 +88,16 @@ export class ProjectComponent implements OnInit {
         projNumber = (this.des.length + 1).toString();
       }
       this.backProj = this.des[+projNumber - 2];
+    }
+    if (this.router.navigated === false) {
+      // Case when route was not used yet
+      this.router.navigateByUrl(`/project/${this.backProj}`);
+    } else {
+      // Case when route was used once or more
+      this.router.navigateByUrl(`/home`).then(
+        () => {
+          this.router.navigateByUrl(`/project/${this.backProj}`);
+        });
     }
   }
 }

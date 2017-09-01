@@ -64,18 +64,21 @@ a:link, a:visited, a:hover, a:active {
     height: 300px;
 }
 
-.rfc-cover {
+.header-img {
     width: 45%;
     position: relative;
     margin: 50px auto -60px;
-    -webkit-animation: container-fade 3s ease-in-out;
+}
+
+.cover-img {
+    -webkit-animation: container-bobbing 3s ease-in-out;
     -webkit-animation-iteration-count: infinite;
-    -moz-animation: container-fade 3s ease-in-out;
+    -moz-animation: container-bobbing 3s ease-in-out;
     -moz-animation-iteration-count: infinite;
-    -o-animation: container-fade 3s ease-in-out;
+    -o-animation: container-bobbing 3s ease-in-out;
     -o-animation-iteration-count: infinite;
-    animation: container-fade 3s ease-in-out;
-    animation-iteration-count: infinite;
+    animation: container-bobbing 3s ease-in-out;
+    animation-iteration-count: infinite;  
 }
 
 .description, .link, .downloads {
@@ -188,7 +191,7 @@ a:link, a:visited, a:hover, a:active {
     padding: 10px 0;
 }
 
-@keyframes container-fade {
+@keyframes container-bobbing {
     0% {opacity: 1; transform: translateY(5px);}
     50% {opacity: 1; transform: translateY(-5px);}
     100% {opacity: 1; transform: translateY(5px);}
