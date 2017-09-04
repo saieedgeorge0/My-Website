@@ -1,0 +1,47 @@
+.header {
+    padding: 70px 85px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__intro {
+    font-size: 45px;
+    font-weight: 600;
+    margin-right: 17px;
+}
+
+.header__name {
+    font-size: 45px;
+    font-weight: 100;
+}
+
+.returnhome {
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 30px;
+    height: 45px;
+    width: 45px;
+    z-index: 5;
+}
+
+.returnhome-svg {
+    height: 45px;
+    width: 45px;
+}
+
+#circle {
+    transition: fill 0.5s ease-in-out;
+ }
+
+.returnhome:hover #circle {
+    fill: white !important;
+}
+
+#right-arrow {
+    transition: fill 0.5s ease-in-out;
+}  
+
+.returnhome:hover #right-arrow {
+    fill: rgba(0, 0, 0, 0.7)
+}

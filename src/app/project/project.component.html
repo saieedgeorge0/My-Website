@@ -98,4 +98,10 @@
         <div class="technologies">
         </div>
     </div>
+
+    <div class="img-slider">
+        <div *ngFor="let item of images" class="img">
+            <img class="img-src" src="./../assets/img/project/{{this.currProj}}/{{item}}"/>
+        </div>
+    </div>
 </div>

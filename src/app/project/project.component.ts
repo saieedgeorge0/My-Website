@@ -33,6 +33,7 @@ export class ProjectComponent implements OnInit {
   public downloads: string;
   public color: string;
   public winner: string;
+  public images: string[] = [];
 
   public projects = { rfc, hh, stmcoc, uofc, uncommon, calc, old, fb, pres, aig, uw, ig, poly };
 
@@ -48,6 +49,12 @@ export class ProjectComponent implements OnInit {
     this.downloads = this.projects[`${this.currProj}`][5];
     this.color = this.projects[`${this.currProj}`][6];
     this.winner = this.projects[`${this.currProj}`][7];
+
+    console.log(this.projects[`${this.currProj}`][8]);
+
+    for (let i = 8; i < this.projects[`${this.currProj}`].length; i++) {
+      this.images.push(this.projects[`${this.currProj}`][i]);
+    }
   }
 
   public returnHome(): void {
