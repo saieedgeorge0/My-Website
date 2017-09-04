@@ -5,6 +5,14 @@
     align-items: center;
 }
 
+.client {
+    float: right;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 79px;
+    margin-right: 85px;
+}
+
 .header__intro {
     font-size: 45px;
     font-weight: 600;
@@ -22,7 +30,6 @@
     margin-right: 30px;
     height: 45px;
     width: 45px;
-    z-index: 5;
 }
 
 .returnhome-svg {
@@ -44,4 +51,8 @@
 
 .returnhome:hover #right-arrow {
     fill: rgba(0, 0, 0, 0.7)
+}
+
+.gallery {
+    padding: 100px 75px 50px;
 }
