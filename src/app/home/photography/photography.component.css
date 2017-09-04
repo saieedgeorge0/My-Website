@@ -118,12 +118,6 @@
     animation: container-fade 0.5s;
 }
 
-.mary {
-    background: url('./../../../assets/img/photography/mary/mary-back.jpg');
-    background-size: cover;
-    animation: container-fade 1s;
-}
-
 @keyframes container-fade {
     0% {opacity: 0; transform: translateX(-70px);}
     100% {opacity: 1; transform: translateX(0px);}

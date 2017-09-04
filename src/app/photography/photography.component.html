@@ -1,6 +1,6 @@
 <div class="page">
+    <span class="client">{{currProj}}</span>
     <div class="header">
-        <span class="client"></span>
         <div class="returnhome" (click)="returnHome()">
             <svg class="returnhome-svg" width="82px" height="82px" viewBox="0 0 82 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>Group</title>
@@ -20,5 +20,9 @@
         </div>
         <span class="header__intro">George </span>
         <span class="header__name">Saieed</span>
+    </div>
+
+    <div class="gallery">
+        <gallery [flexBorderSize]="10" [flexImageSize]="7" [galleryName]="'spain'"></gallery>
     </div>
 </div>
