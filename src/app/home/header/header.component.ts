@@ -39,12 +39,12 @@ export class HeaderComponent {
     });
   }
 
-  private changeCategory(category) {
+  public changeCategory(category) {
     this.currentCategory = category;
     this.homeService.setHomeState(category);
   }
 
-  private toBlog(): void {
+  public toBlog(): void {
     window.location.href = 'https://medium.com/george-saieed';
   }
 }
