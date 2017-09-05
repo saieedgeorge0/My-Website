@@ -43,9 +43,8 @@
 .year {
     padding: 41px 50px 0px;
     width: 250px;
-    font-weight: bold;
+    font-weight: 300;
     text-transform: uppercase;
-    font-family: 'AlexandriaFLF', serif;
     font-size: 13px;
     color: gray;
 }
@@ -72,32 +71,32 @@
 }
 
 .ic {
-    animation: container-fade 1.5s;
+    animation: container-fade 1s;
 }
 
 .explorer {
-    animation: container-fade 2.5s;
+    animation: container-fade 1s;
 }
 
 .sewickley {
-    animation: container-fade 3.5s;
+    animation: container-fade 1s;
 }
 
 .saieed {
-    animation: container-fade 4.5s;
+    animation: container-fade 1s;
     border-bottom: none;
 }
 
 .all {
-    animation: container-fade 5s;
+    animation: container-fade 1s;
 }
 
 .upmc {
-    animation: container-fade 5s;
+    animation: container-fade 1s;
 }
 
 .academy {
-    animation: container-fade 5s;
+    animation: container-fade 1s;
     border-bottom: none;
 }
 
@@ -107,7 +106,7 @@
     display: flex;
     align-items: center;
     padding-left: 30px;
-    animation: container-fade 5s;
+    animation: container-fade 1s;
 }
 
 .html, .css {
@@ -203,3 +202,72 @@
     0% {opacity: 0; transform: translateX(-70px);}
     100% {opacity: 1; transform: translateX(0px);}
 }
+
+@media(max-width: 1111px) {
+    .description {
+        font-size: 25px;
+        font-weight: 200;
+        padding: 50px 30px 20px;
+        animation: container-fade 0.5s;
+    }
+    .experience, .volunteer, .skills {
+        padding: 0 30px 40px;
+    }
+    .skill-container {
+        padding-left: 40px;
+        width: 100vw;
+        overflow-y: scroll;
+        z-index: 10;
+        margin-left: -45px;
+    }
+}
+
+@media(max-width: 883px) {
+    .position {
+        flex-direction: column;
+    }
+
+    .name {
+        padding: 20px 0 0;
+        font-size: 27px;
+        width: auto;
+    }
+
+    .year {
+        padding: 5px 0px 0px;
+        font-weight: 300;
+        text-transform: uppercase;
+        font-size: 13px;
+        width: auto;
+        color: gray;
+    }
+
+    .content {
+        padding: 20px 0;
+        width: 100%;
+        color: gray;
+        font-weight: 300;
+    }
+}
+
+@media(max-width: 603px) {
+    .description {
+        font-size: 18px;
+        font-weight: 400;
+        padding: 50px 20px 20px;
+        animation: container-fade 0.5s;
+    }
+    .experience, .volunteer, .skills {
+        padding: 0 20px 40px;
+    }
+    .name, .content, .year {
+        font-weight: 400;
+    }
+}
+
+@media(max-width: 450px) {
+    .description {
+        font-size: 17px;
+    }
+}
+
