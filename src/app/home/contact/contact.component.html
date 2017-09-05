@@ -1,28 +1,28 @@
 <div class="form">
-    <form id="contact-form" name="sentMessage" action = "https://formspree.io/gs@georgesaieed.com" method="POST" novalidate> 
+    <form (ngSubmit)="onSubmit()" #f="ngForm" id="contact-form" name="sentMessage"> 
         <div class="position t-name">
             <div class=""> 
                 <label class="name">Name</label>
-                <input type="text" class="content" placeholder="enter here" id="name" required data-validation-required-message="Please enter your name." name = "PersonName">
+                <input type="text" [(ngModel)]="data.name" class="content" placeholder="{{placeholdern}}" id="name" required data-validation-required-message="Please enter your name." name = "PersonName">
                 <p class=""></p>
             </div>
         </div> 
         <div class="position t-email">
             <div class="">
                 <label class="name">Email Address</label>
-                <input type="email" class="content" placeholder="enter here" id="email" required data-validation-required-message="Please enter your email address." name = "_replyto">
+                <input type="email" [(ngModel)]="data.email" class="content" placeholder="enter here" id="email" required data-validation-required-message="Please enter your email address." name = "_replyto">
                 <p class=""></p> 
             </div> 
         </div> 
         <div class="position question t-question"> 
             <div class=""> 
                 <label class="name question-name">What's Your Question?</label> 
-                <textarea rows="3" class="content" placeholder="enter here" id="message" required data-validation-required-message="Please enter a message." name = "PersonQuestion"></textarea>
+                <textarea rows="3" [(ngModel)]="data.question" class="content" placeholder="{{placeholderq}}" id="message" required data-validation-required-message="Please enter a message." name = "PersonQuestion"></textarea>
                 <p class=""></p> 
             </div> 
         </div> 
         <br> 
-        <div id="success"></div>
+        <div id="success"></div>    
         <div class="submission t-submit"> 
             <div class=""> 
                 <input type="text" name="_gotcha" style="display:none" /> 
