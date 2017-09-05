@@ -40,7 +40,7 @@ export class ProjectComponent implements OnInit {
   public projects = { rfc, hh, stmcoc, uofc, uncommon, calc, old, fb, pres, aig, uw, ig, poly };
 
   ngOnInit(): void {
-    if (this.dev.includes(this.currProj) || this.des.includes(this.currProj)) {
+    if (this.dev.indexOf(this.currProj) >= 0 || this.des.indexOf(this.currProj) >= 0) {
     } else { this.currProj = 'rfc'; }
 
     this.type = this.projects[`${this.currProj}`][0];

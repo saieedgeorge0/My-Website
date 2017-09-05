@@ -183,6 +183,7 @@ a:link, a:visited, a:hover, a:active {
 .description-label {
     font-family: 'AlexandriaFLF', serif;
     text-transform: uppercase;
+    font-weight: bold;
     font-size: 20px;
     width: 250px;
     color: gray;
@@ -324,6 +325,7 @@ a:link, a:visited, a:hover, a:active {
 
     .header-img {
         width: 65%;
+        margin-bottom: -30px;
     }
 
     .cover-img {
@@ -364,7 +366,8 @@ a:link, a:visited, a:hover, a:active {
     }
 
     .header-img {
-        width: 75%;
+        width: 70%;
+        margin-bottom: -20px;
     }
 
     .cover-img {
@@ -556,5 +559,19 @@ a:link, a:visited, a:hover, a:active {
 @media(max-width: 440px) {
     .winner {
         width: 75px;
+    }
+}
+
+@media(max-width: 770px) {
+    .arrow-fwd:hover {
+        transform: none;
+    }
+
+    .arrow-back:hover {
+        transform: none;
+    }
+
+    .description-content {
+        font-weight: 300;
     }
 }
