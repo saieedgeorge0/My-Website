@@ -44,7 +44,7 @@ export const calc = [`development`, `6`, `Personal`, `iOS Application designed a
 export const old = [`development`, `7`, `Personal`, `My current site is the fourth version of my personal website. While it is by far the
                     most user-friendly and informative of the four, everyone has to start somewhere! Links to the past three websites
                     can be found below. Click on the link to view v3, or tack v1 or v2 onto it to view the first or second iteration.`,
-                    `http://isdebomb.com/`, `None. See photos below (most recent --> oldest).`, `rgba(63, 54, 42, 1)`, ``,
+                    `http://isdebomb.com/`, ``, `rgba(63, 54, 42, 1)`, ``,
                     `desk1-min.png`, `mobile1-min.png`, `desk2-min.png`, `mobile2-min.png`, `desk4-min.png`, `mobile4-min.png`,
                     `desk5-min.png`, `mobile5-min.png`, `desk6-min.png`, `mobile6-min.png`, `desk7-min.png`, `mobile7-min.png`];
 

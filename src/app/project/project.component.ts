@@ -31,6 +31,8 @@ export class ProjectComponent implements OnInit {
   public description: string;
   public link: string;
   public downloads: string;
+  public clickL = `Click here`;
+  public clickD = `Click here`;
   public color: string;
   public winner: string;
   public images: string[] = [];
@@ -54,6 +56,14 @@ export class ProjectComponent implements OnInit {
 
     for (let i = 8; i < this.projects[`${this.currProj}`].length; i++) {
       this.images.push(this.projects[`${this.currProj}`][i]);
+    }
+
+    if (this.link === ``) {
+      this.clickL = ``;
+    }
+
+    if (this.downloads === ``) {
+      this.clickD = ``;
     }
   }
 

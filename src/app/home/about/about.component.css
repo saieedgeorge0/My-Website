@@ -198,6 +198,86 @@
     display: block;
 }
 
+.icon {
+    display: inline-block;
+    height: 50px;
+    margin-left: 7px;
+}
+
+.medium {
+    margin-left: 0;
+}
+
+.icons {
+    margin-top: 10px;
+    display: none;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+svg, .medium {
+    width: 45px;
+    height: 45px;
+}
+
+.medium {
+    margin-top: -30px;
+}
+
+@media(max-width: 1055px) {
+    .icons {
+        display: block;
+    }
+}
+
+@media(max-width: 475px) {
+    svg, .medium {
+        width: 40px;
+        height: 40px;
+    }
+
+    .medium {
+        margin-top: -28px;
+    }
+}
+
+@media(max-width: 415px) {
+    .icon {
+        margin-left: 5px;
+    }
+
+    .medium {
+        margin-left: 0;
+    }
+
+    svg, .medium {
+        width: 37px;
+        height: 37px;
+    }
+
+    .spotify {
+        display: none;
+    }
+
+    .medium {
+        margin-top: -27.5px;
+    }
+}
+
+@media(max-width: 330px) {
+
+    svg, .medium {
+        width: 35px;
+        height: 35px;
+    }
+
+    .medium {
+        margin-top: -23px;
+    }
+}
+
 @keyframes container-fade {
     0% {opacity: 0; transform: translateX(-70px);}
     100% {opacity: 1; transform: translateX(0px);}
@@ -215,10 +295,11 @@
     }
     .skill-container {
         padding-left: 40px;
+        padding-right: 40px;
         width: 100vw;
         overflow-y: scroll;
         z-index: 10;
-        margin-left: -45px;
+        margin-left: -55px;
     }
 }
 
@@ -268,6 +349,18 @@
 @media(max-width: 450px) {
     .description {
         font-size: 17px;
+    }
+}
+
+@media(max-width: 603px) {
+    .description {
+        padding-top: 40px;
+    }
+}
+
+@media(max-width: 470px) {
+    .description {
+        padding-top: 25px;
     }
 }
 
