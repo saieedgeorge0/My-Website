@@ -87,7 +87,7 @@
 
 .client__value, .project__value {
     font-size: 16px;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .tile__tech {
@@ -103,9 +103,135 @@
 .year {
     position: absolute;
     font-size: 17px;
-    font-weight: 100;
+    font-weight: 200;
     bottom: 15px;
     right: 25px;
+}
+
+@media(max-width: 470px) {
+    .tile {
+        height: 295px;
+        width: 295px;
+    }
+
+    .row {
+        padding: 0;
+    }
+
+    .tile__imgs {
+        padding-top: 25px;
+    }
+
+    .desktop {
+        width: 180px;
+        height: 112px;
+        margin-left: 25px;
+        margin-right: 15px;
+        border-radius: 3px;
+    }
+
+    .tile__info {
+        margin-left: 25px;
+    }
+
+    .client__label, .project__label {
+        font-size: 18px;
+    }
+
+    .client__value, .project__value {
+        font-size: 14px;
+    }
+
+    .tile__tech {
+        bottom: 40px;
+    }
+
+    .tech-svg {
+        height: 15px;
+    }
+
+    .year {
+        position: absolute;
+        font-size: 13px;
+    }
+
+    .mobile-triple {
+        width: 60px;
+        margin-left: 20px;
+    }
+
+    .tile__imgs__mobile { 
+        padding-top: 24px;
+    }
+
+}
+
+@media(max-width: 372px) {
+    .tile {
+        height: 250px;
+        width: 250px;
+    }
+
+    .row {
+        padding: 0;
+    }
+
+    .tile__imgs {
+        padding-top: 18px;
+    }
+
+    .desktop {
+        width: 160px;
+        height: 100px;
+        margin-left: 20px;
+        margin-right: 12px;
+        border-radius: 3px;
+    }
+
+    .mobile {
+        width: 35px;
+        height: 62px;
+    }
+
+    .tile__info {
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+
+    .client__label, .project__label {
+        font-size: 15px;
+    }
+
+    .client__value, .project__value {
+        font-size: 11px;
+    }
+
+    .client__value {
+        padding-bottom: 10px;
+    }
+
+    .tile__tech {
+        bottom: 32px;
+    }
+
+    .tech-svg {
+        height: 13px;
+    }
+
+    .year {
+        position: absolute;
+        font-size: 11px;
+    }
+
+    .mobile-triple {
+        width: 52px;
+        margin-left: 16px;
+    }
+
+    .tile__imgs__mobile { 
+        padding-top: 22px;
+    }
+
 }
 
 
@@ -163,5 +289,12 @@
 @keyframes container-fade {
     0% {opacity: 0; transform: translateX(-70px);}
     100% {opacity: 1; transform: translateX(0px);}
+}
+
+@media(max-width: 1268px) {
+    .row {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
 

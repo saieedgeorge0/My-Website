@@ -6,3 +6,9 @@
 .hidden {
     display: none;
 }
+ 
+@media(max-width: 451px) {
+    .page {
+        margin: 10px 10px;
+    }
+} 

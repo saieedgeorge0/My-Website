@@ -25,7 +25,6 @@ a:link, a:visited, a:hover, a:active {
     font-weight: 100;
 }
 
-
 /* all icon styling */
 .icons {
     margin-top: 8px;
@@ -54,6 +53,7 @@ svg {
 .medium {
     margin-top: -40px;
 }
+
 
 /* Spotify icon styling */
 .spotify:hover #spotify-circle {
@@ -164,7 +164,7 @@ svg {
 
 .category {
     display: inline-block;
-    font-weight: 100;
+    font-weight: 200;
     font-size: 23px;
     margin-right: 128px;
     cursor: pointer;
