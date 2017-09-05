@@ -2,6 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { Angular2ImageGalleryModule } from 'angular2-image-gallery';
+import { HttpModule } from '@angular/http';
+import { FormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './home/header/header.component';
 import { DevelopmentComponent } from './home/development/development.component';
@@ -35,6 +37,8 @@ import { HomeService } from './services/home.service';
   imports: [
     BrowserModule,
     Angular2ImageGalleryModule,
+    HttpModule,
+    FormsModule,
     RouterModule.forRoot([
       {
         path: '',
