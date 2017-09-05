@@ -298,3 +298,15 @@
     }
 }
 
+@media(max-width: 603px) {
+    .container-fluid {
+        margin: 40px auto 0px;
+    }
+}
+
+@media(max-width: 470px) {
+    .container-fluid {
+        margin: 25px auto 0px;
+    }
+}
+

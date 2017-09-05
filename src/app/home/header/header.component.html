@@ -1,6 +1,6 @@
 <div class="header" [hidden]="project || photography">
-    <span class="header__intro">Hi. I'm George </span>
-    <span class="header__name">Saieed.</span>
+    <span class="header__intro">George </span>
+    <span class="header__name">Saieed</span>
 
     <div class="icons">
         <a class="no-link-style" target="_blank" (click)="toBlog()">
@@ -154,35 +154,50 @@
     <div class="categories">
         <div routerLink="/home/development" id="dev_id" class="category categories__dev" (click)="changeCategory('development')">
             <span class="dev__text">
+                <img class="ico" src="./../../../assets/img/section-icons/dev.svg"/>
+                <div class="linkz">
                 Development
+                </div>
             </span>
             <div class="select" routerLink="/home/development" routerLinkActive="active" [class.active]="currentCategory === 'development'">
             </div>
         </div>
         <div routerLink="/home/design" id="des_id" class="category categories__des" (click)="changeCategory('design')">
             <span class="des__text">
+                <img class="ico" src="./../../../assets/img/section-icons/des.svg"/>
+                <div class="linkz">
                 Design
+                </div>
             </span>
             <div class="select" routerLink="/home/design" routerLinkActive="active">
             </div>
         </div>
         <div routerLink="/home/photography" id="photo_id" class="category categories__photo" (click)="changeCategory('photography')">
             <span class="photo__text">
+                <img class="ico" src="./../../../assets/img/section-icons/photo.svg"/>
+                <div class="linkz">
                 Photography
+                </div>
             </span>
             <div class="select" routerLink="/home/photography" routerLinkActive="active">
             </div>
         </div>
         <div routerLink="/home/about" id="about_id" class="category categories__about" (click)="changeCategory('about')">
             <span class="about__text">
+                <img class="ico" src="./../../../assets/img/section-icons/about.svg"/>
+                <div class="linkz">
                 About
+                </div>
             </span>
             <div class="select" routerLink="/home/about" routerLinkActive="active">
             </div>
         </div>
         <div routerLink="/home/contact" id="contact_id" class="category categories__contact" (click)="changeCategory('contact')">
             <span class="contact__text">
+                <img class="ico" src="./../../../assets/img/section-icons/contact.svg"/>
+                <div class="linkz">
                 Contact
+                </div>
             </span>
             <div class="select" routerLink="/home/contact" routerLinkActive="active">
             </div>

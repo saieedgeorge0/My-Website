@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>photo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="photo" fill-rule="nonzero" fill="#FFFFFF">
+            <path d="M23.8364,45.0254 L5.9472,15.3342 C2.1938,20.8838 0,27.5674 0,34.7578 C0,38.3306 0.5432,41.7802 1.5498,45.0254 L23.8364,45.0254 Z" id="Shape"></path>
+            <path d="M31.353,20.02 L66.2242,20.02 C61.7456,10.4958 53.0698,3.325 42.5908,0.903 L31.353,20.02 Z" id="Shape"></path>
+            <path d="M20.1586,30.7804 L38.15,0.1694 C37.0328,0.0588 35.903,0 34.7564,0 C24.3936,0 15.0822,4.564 8.7094,11.7824 L20.1586,30.7804 Z" id="Shape"></path>
+            <path d="M27.4064,68.4208 L38.4104,49.2254 L3.1668,49.2254 C7.7896,59.2802 17.0674,66.7562 28.2268,68.8912 L27.4064,68.4208 Z" id="Shape"></path>
+            <path d="M45.6232,24.22 L63.1918,54.7064 C67.172,49.0546 69.517,42.1764 69.517,34.7564 C69.517,31.0842 68.9402,27.545 67.879,24.22 L45.6232,24.22 Z" id="Shape"></path>
+            <path d="M49.2044,38.85 L31.703,69.3714 C32.7096,69.4596 33.7274,69.5156 34.7564,69.5156 C44.8826,69.5156 54.0106,65.1602 60.3694,58.226 L49.2044,38.85 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>
