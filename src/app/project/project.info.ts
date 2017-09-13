@@ -4,15 +4,15 @@ export const rfc = [`development`, `1`, `Run for Cover`,
                     `http://isdebomb.com/rfc`, ``, `rgba(22, 85, 53, 1)`, ``, `desk1-min.png`, `mobile1-min.png`,
                     `desk2-min.png`, `mobile2-min.png`, `desk3-min.png`, `mobile3-min.png`, `desk4-min.png`, `mobile4-min.png`];
 
-export const hh = [`development`, `2`, `Hack Harvard`, `Website built at Hack Harvard. This was built to demo
+export const hh = [`development`, `2`, `Personal`, `Website built at Hack Harvard. This was built to demo
                     a potential application that hospitals could use in order to significantly decrease wait times in the ER.
                     Users create an account, and enter their health information. This is then saved. When they need to go the ER,
-                    they / a family member can login, speak their injury to the application, and the application would then
+                    they / a family member can login, speak their injury to the application, and the application will then
                     find the nearest hospital to them, and instruct them to go there. The hospital would then receive this patient's
-                    injury and health information and insert them into queue to be seen appropriately. Ideally, by the time the patient
-                    made it to the hospital, the hospital would be ready to receive them. At the very least, the hospital gets
-                    the patient's health information on hand immediately *Disclaimer: Google has since changed the way their location
-                    API works, and the location functionality unfortunately no longer works.`, `http://isdebomb.com/hh`, ``,
+                    injury and health information and insert them into a queue to be seen appropriately. Ideally, by the time the patient
+                    made it to the hospital, the hospital would be ready to receive them. At the very least, the hospital would have
+                    the patient's health information on hand immediately. *Disclaimer: Google has since changed the way their location
+                    API works, and the location functionality unfortunately no longer works.*`, `http://isdebomb.com/hh`, ``,
                     `rgba(37, 105, 135, 1)`, ``, `desk1-min.png`, `mobile1-min.png`, `desk2-min.png`, `desk3-min.png`,
                     `desk4-min.png`];
 
@@ -29,8 +29,8 @@ export const uofc = [`development`, `4`, `University of Chicago`, `Twilio Applic
                     2016 to (412)-253-4757 to test it out.`, ``, ``, `rgba(28, 96, 26, 1)`, ``, `desk1-min.png`,
                     `mobile1-min.png`];
 
-export const uncommon = [`development`, `5`, `Uncommon Hacks`, `iOS Application designed and built at UChicago's Uncommon Hacks. It
-                        allows people to take pictures of their receipts, and the app reminds them when to return items, keeps track
+export const uncommon = [`development`, `5`, `Personal`, `iOS Application designed and built at UChicago's Uncommon Hacks. It
+                        allows people to take pictures of their receipts, and then reminds them when to return items, keeps track
                         of their expenses, etc. It won JP Morgan Chase's Best UI/UX prize. It is not currently on the App Store.`,
                         ``, `http://isdebomb.com/uncommon/design.pdf`, `rgba(75, 79, 90, 1)`, `visible`, `mobile1-min.png`,
                         `mobile2-min.png`, `mobile3-min.png`, `mobile4-min.png`, `mobile5-min.png`, `mobile6-min.png`, `mobile7-min.png`];
@@ -41,7 +41,7 @@ export const calc = [`development`, `6`, `Personal`, `iOS Application designed a
                     can select from several different gradient backgrounds to customize the look of the app.`, ``, ``,
                     `rgba(45, 36, 97, 1)`, ``, `mobile1-min.png`, `mobile2-min.png`, `mobile3-min.png`, `mobile4-min.png`];
 
-export const old = [`development`, `7`, `Personal`, `My current site is the fourth version of my personal website. While it is by far the
+export const old = [`development`, `7`, `Personal`, `This site is the fourth version of my personal website. While it is by far the
                     most user-friendly and informative of the four, everyone has to start somewhere! Links to the past three websites
                     can be found below. Click on the link to view v3, or tack v1 or v2 onto it to view the first or second iteration.`,
                     `http://isdebomb.com/`, ``, `rgba(63, 54, 42, 1)`, ``,

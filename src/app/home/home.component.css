@@ -1,6 +1,6 @@
-.page {
+.outer-page {
     background: #101112;
-    margin: 25px 25px;
+    margin: 0px 25px;
 }
 
 .hidden {
@@ -8,7 +8,7 @@
 }
  
 @media(max-width: 451px) {
-    .page {
-        margin: 10px 10px;
+    .outer-page {
+        margin: 0px 10px;
     }
 } 

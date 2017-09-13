@@ -1,3 +1,18 @@
+.category-title {
+    width: 100%;
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    font-size: 21px;
+    padding: 25px 0 10px;
+    border-bottom: solid 1px white;
+}
+
+.ha-outside {
+    padding: 0 15px;
+    display: none;
+}
+
 .form {
     padding: 40px 85px 60px;
 }
@@ -176,5 +191,11 @@
 @media(max-width: 470px) {
     .form {
         padding-top: 15px;
+    }
+}
+
+@media(max-width: 875px) {
+    .ha-outside {
+        display: block;
     }
 }
