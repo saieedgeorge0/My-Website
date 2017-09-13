@@ -56,6 +56,7 @@ app-root:empty + .loading {
 
 ::-webkit-scrollbar {
     width: 8px;
+    height: 8px;
 }
 
 ::-webkit-scrollbar-track {
@@ -63,7 +64,7 @@ app-root:empty + .loading {
 }
  
 ::-webkit-scrollbar-thumb {
-    -webkit-border-radius: 15px;
+    -webkit-border-radius: 0px;
     background: rgba(255,255,255,0.3);
 }
 
