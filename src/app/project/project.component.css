@@ -26,12 +26,12 @@ a:link, a:visited, a:hover, a:active {
 .header__intro {
     font-size: 45px;
     font-weight: 600;
-    margin-right: 17px;
+    margin-right: 13px;
 }
 
 .header__name {
     font-size: 45px;
-    font-weight: 100;
+    font-weight: 200;
 }
 
 .returnhome {

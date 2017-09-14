@@ -48,23 +48,29 @@ export const old = [`development`, `7`, `Personal`, `This site is the fourth ver
                     `desk1-min.png`, `mobile1-min.png`, `desk2-min.png`, `mobile2-min.png`, `desk4-min.png`, `mobile4-min.png`,
                     `desk5-min.png`, `mobile5-min.png`, `desk6-min.png`, `mobile6-min.png`, `desk7-min.png`, `mobile7-min.png`];
 
-export const fb = [`design`, `1`, `Personal`, `This was a UI 're-design' of Facebook. It was not intended as an attempt to re-design
+export const acn = [`design`, `1`, `Accenture`, `This was a re-design I completed for a demo application (that I then also implemented)
+                    created by Accenture for a client. The application allows customers to order food and then pick it up at a
+                    location. All colors, images, and information have been changed to protect the identity of the client.`,
+                    ``, ``, `rgba(83, 28, 118, 1)`, ``, `desk1-min.png`, `mobile1-min.png`, `desk2-min.png`, `mobile2-min.png`,
+                    `desk4-min.png`, `mobile4-min.png`, `desk5-min.png`];
+
+export const fb = [`design`, `2`, `Personal`, `This was a UI 're-design' of Facebook. It was not intended as an attempt to re-design
                     Facebook's user experience - rather, I created it as an attempt to test the skills I had acquired while learning
                     to use Sketch.`, ``, `http://isdebomb.com/fb/design.png`, `rgba(19, 76, 165, 1)`, ``, `desk1-min.png`];
 
-export const pres = [`design`, `2`, `Personal`, `Presentation designed in Sketch for a final research project.`, ``,
+export const pres = [`design`, `3`, `Personal`, `Presentation designed in Sketch for a final research project.`, ``,
                     `http://isdebomb.com/pres/research.pdf`, `rgba(33, 92, 69, 1)`, ``, `desk1-min.png`];
 
-export const aig = [`design`, `3`, `American International Group`, `Mobile app design created for an AIG concept competition to help
+export const aig = [`design`, `4`, `American International Group`, `Mobile app design created for an AIG concept competition to help
                     lower the number of automobile accidents that take place in the US each year. It won fifth place.`, ``,
                     `http://isdebomb.com/aig/app.pdf`, `rgba(92, 27, 115, 1)`, `visible`, `desk1-min.png`, `mobile1-min.png`];
 
-export const uw = [`design`, `4`, `Unaccompanied Women`, `Poster designed to advertise an Unaccompanied Women's (an A Cappella group)
+export const uw = [`design`, `5`, `Unaccompanied Women`, `Poster designed to advertise an Unaccompanied Women's (an A Cappella group)
                     end of year concert.`, ``, `http://isdebomb.com/uw/poster.png`, `rgba(117, 60, 58, 1)`, ``, `desk1-min.png`];
 
-export const ig = [`design`, `5`, `Personal`, `After the introduction of the latest version of Instagram's logo, I used Sketch
+export const ig = [`design`, `6`, `Personal`, `After the introduction of the latest version of Instagram's logo, I used Sketch
                     to attempt to recreate it. I then used sketch to design a possible alternative logo that I thought of.`, ``, ``,
                     `rgba(66, 46, 39, 1)`, ``, `desk1-min.png`];
 
-export const poly = [`design`, `6`, `Personal`, `Used Photoshop to manually create low poly art profile pics. for myself and two friends.`,
+export const poly = [`design`, `7`, `Personal`, `Used Photoshop to manually create low poly art profile pics. for myself and two friends.`,
                     ``, ``, `rgba(47, 54, 98, 1)`, ``, `desk1-min.jpg`, `desk2-min.jpg`, `desk3-min.jpg`];

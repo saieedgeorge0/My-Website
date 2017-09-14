@@ -249,11 +249,16 @@
     width: 32%;
 }
 
+.acn {
+    background-color: rgba(83, 28, 118, 1);
+    box-shadow: -9px 9px 0 rgba(83, 28, 118, 0.23);
+    animation: container-fade 0.5s;
+}
 
 .fb {
     background-color: rgba(19, 76, 165, 1);
     box-shadow: -9px 9px 0 rgba(19, 76, 165, 0.23);
-    animation: container-fade 0.5s;
+    animation: container-fade 1s;
 }
 
 .pres {
