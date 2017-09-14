@@ -2,6 +2,24 @@
     <span class="category-title">DESIGN</span>
     <div class="row">
         <div class="col-xl-4 col-lg-6 col-md-12">
+            <div class="tile acn" (click)="openProject('acn')">
+                <div class="tile__imgs">
+                    <img class="desktop" src="./../../../assets/img/design/acn/acn-d-thumb.jpg"/>
+                    <img class="mobile" src="./../../../assets/img/design/acn/acn-m-thumb.jpg"/>
+                </div>
+                <div class="tile__info">
+                    <span class="client__label"> Client </span>
+                    <span class="client__value"> Accenture </span>
+                    <span class="project__label"> Project Type </span>
+                    <span class="project__value"> UI Design </span>
+                </div>
+                <div class="tile__tech">
+                    <img class="tech-svg" src="./../../../assets/img/tech-svgs/sketch.svg"/>
+                </div>
+                <span class="year"> 2017 </span>
+            </div>
+        </div>
+        <div class="col-xl-4 col-lg-6 col-md-12">
             <div class="tile fb" (click)="openProject('fb')">
                 <div class="tile__imgs">
                     <img class="desktop" src="./../../../assets/img/design/fb/fb-d-thumb.jpg"/>
@@ -28,25 +46,6 @@
                     <span class="client__value"> Personal </span>
                     <span class="project__label"> Project Type </span>
                     <span class="project__value"> Presentation </span>
-                </div>
-                <div class="tile__tech">
-                    <img class="tech-svg" src="./../../../assets/img/tech-svgs/sketch.svg"/>
-                </div>
-                <span class="year"> 2016 </span>
-            </div>
-        </div>
-        <div class="col-xl-4 col-lg-6 col-md-12">
-            <div class="tile aig" (click)="openProject('aig')">
-                <img class="winner" src="./../../../assets/img/development/uncommon/winner.png">
-                <div class="tile__imgs">
-                    <img class="desktop" src="./../../../assets/img/design/aig/aig-d-thumb.jpeg"/>
-                    <img class="mobile" src="./../../../assets/img/design/aig/aig-m-thumb.jpeg"/>
-                </div>
-                <div class="tile__info">
-                    <span class="client__label"> Client </span>
-                    <span class="client__value"> American International Group </span>
-                    <span class="project__label"> Project Type </span>
-                    <span class="project__value"> UI Design </span>
                 </div>
                 <div class="tile__tech">
                     <img class="tech-svg" src="./../../../assets/img/tech-svgs/sketch.svg"/>
@@ -107,5 +106,24 @@
                 <span class="year"> 2016 </span>
             </div>
         </div>
+        <div class="col-xl-4 col-lg-6 col-md-12">
+                <div class="tile aig" (click)="openProject('aig')">
+                    <img class="winner" src="./../../../assets/img/development/uncommon/winner.png">
+                    <div class="tile__imgs">
+                        <img class="desktop" src="./../../../assets/img/design/aig/aig-d-thumb.jpeg"/>
+                        <img class="mobile" src="./../../../assets/img/design/aig/aig-m-thumb.jpeg"/>
+                    </div>
+                    <div class="tile__info">
+                        <span class="client__label"> Client </span>
+                        <span class="client__value"> American International Group </span>
+                        <span class="project__label"> Project Type </span>
+                        <span class="project__value"> UI Design </span>
+                    </div>
+                    <div class="tile__tech">
+                        <img class="tech-svg" src="./../../../assets/img/tech-svgs/sketch.svg"/>
+                    </div>
+                    <span class="year"> 2016 </span>
+                </div>
+            </div>
     </div>
 </div>

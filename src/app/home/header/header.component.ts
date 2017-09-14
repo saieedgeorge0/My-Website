@@ -25,7 +25,7 @@ export class HeaderComponent {
           }
         }
 
-        if (location.path().slice(1, 8) === 'project') {
+        if (location.path().slice(1, 8) === 'project' || location.path().slice(1, 5) === 'blog') {
           this.project = true;
         } else {
           this.project = false;
