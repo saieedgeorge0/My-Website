@@ -314,7 +314,13 @@ svg, .medium {
         width: 100vw;
         overflow-y: scroll;
         z-index: 10;
-        margin-left: -55px;
+        margin-left: -65px;
+    }
+}
+
+@media(max-width: 451px) {
+    .skill-container {
+        margin-left: -38px;
     }
 }
 
