@@ -252,36 +252,52 @@
 
 }
 
+.dev-hhhack {
+    background-color: rgba(17, 30, 96, 1);
+    box-shadow: -9px 9px 0 rgba(17, 30, 96, 0.23);
+    animation: container-fade 0.5s;
+}
 
+.dev-hhmake {
+    background-color: rgba(32, 147, 170, 1);
+    box-shadow: -9px 9px 0 rgba(32, 147, 170, 0.23);
+    animation: container-fade 1s;
+}
+
+.dev-hhlanding {
+    background-color: rgba(124, 61, 29, 1);
+    box-shadow: -9px 9px 0 rgba(124, 61, 29, 0.23);
+    animation: container-fade 1.5s;
+}
 
 .dev-rfc {
     background-color: rgba(22, 85, 53, 1);
     box-shadow: -9px 9px 0 rgba(22, 85, 53, 0.23);
-    animation: container-fade 0.5s;
+    animation: container-fade 2s;
 }
 
 .hack-harvard {
-    background-color: rgba(37, 105, 135, 1);
-    box-shadow: -9px 9px 0 rgba(37, 105, 135, 0.23);
-    animation: container-fade 1s;
+    background-color: rgba(158, 128, 89, 1);
+    box-shadow: -9px 9px 0 rgba(158, 128, 89, 0.23);
+    animation: container-fade 2.5s;
 }
 
 .stmcoc {
     background-color: rgba(102, 40, 53, 1);
     box-shadow: -9px 9px 0 rgba(102, 40, 53, 0.23);
-    animation: container-fade 1.5s;
+    animation: container-fade 3s;
 }
 
 .uofc {
     background-color: rgba(28, 96, 26, 1);
     box-shadow: -9px 9px 0 rgba(28, 96, 26, 0.23);
-    animation: container-fade 2s;
+    animation: container-fade 3s;
 }
 
 .uncommon {
     background-color: rgba(75, 79, 90, 1);
     box-shadow: -9px 9px 0 rgba(75, 79, 90, 0.23);
-    animation: container-fade 2.5s;
+    animation: container-fade 3s;
 }
 
 .winner {
