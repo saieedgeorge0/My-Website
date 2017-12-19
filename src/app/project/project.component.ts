@@ -2,7 +2,7 @@ import { Component, OnInit, Input } from '@angular/core';
 import { HomeService } from './../services/home.service';
 import { Router, ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
-import { rfc, hh, stmcoc, uofc, uncommon, calc, old, acn, fb, pres, aig, uw, ig, poly } from './project.info';
+import { hhhack, hhmake, hhlanding, rfc, hh, stmcoc, uofc, uncommon, calc, old, acn, fb, pres, aig, uw, ig, poly } from './project.info';
 
 @Component({
   selector: 'app-project',
@@ -20,7 +20,7 @@ export class ProjectComponent implements OnInit {
     });
   }
 
-  public dev = ['rfc', 'hh', 'stmcoc', 'uofc', 'uncommon', 'calc', 'old'];
+  public dev = ['hhhack', 'hhmake', 'hhlanding', 'rfc', 'hh', 'stmcoc', 'uofc', 'uncommon', 'calc', 'old'];
   public des = ['acn', 'fb', 'pres', 'aig', 'uw', 'ig', 'poly'];
   public fwdProj = '';
   public backProj = '';
@@ -37,7 +37,7 @@ export class ProjectComponent implements OnInit {
   public winner: string;
   public images: string[] = [];
 
-  public projects = { rfc, hh, stmcoc, uofc, uncommon, calc, old, acn, fb, pres, aig, uw, ig, poly };
+  public projects = { hhhack, hhmake, hhlanding, rfc, hh, stmcoc, uofc, uncommon, calc, old, acn, fb, pres, aig, uw, ig, poly };
 
   ngOnInit(): void {
     if (this.dev.indexOf(this.currProj) >= 0 || this.des.indexOf(this.currProj) >= 0) {

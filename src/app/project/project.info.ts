@@ -1,10 +1,27 @@
-export const rfc = [`development`, `1`, `Run for Cover`,
+export const hhhack = [`development`, `1`, `Uncommon Hacks`,
+                    `Website designed and built for the University of Chicago's annual hackathon, Uncommon Hacks.
+                    It contains no javascript - everything is pure HTML and CSS, including the animations.`,
+                    `http://uncommonhacks.com/`, ``, `rgba(17, 30, 96, 1)`, ``, `desk1-min.png`, `mobile1-min.png`,
+                    `desk2-min.png`, `mobile2-min.png`, `desk3-min.png`, `mobile3-min.png`, `desk4-min.png`, `mobile4-min.png`];
+
+export const hhmake = [`development`, `2`, `Uncommon Hacks`,
+                    `Website designed and built for the University of Chicago's annual make-a-thon (exclusively for UChicago students).`,
+                    `http://make.uncommonhacks.com/`, ``, `rgba(32, 147, 170, 1)`, ``, `desk1-min.png`, `mobile1-min.png`,
+                    `desk2-min.png`, `mobile2-min.png`, `desk3-min.png`, `mobile3-min.png`];
+
+export const hhlanding = [`development`, `3`, `Uncommon Hacks`,
+                    `Landing page built for the University of Chicago's annual make-a-thon/hackathon. Contains
+                    'garage door'-like animating panels.`,
+                    `http://landing.uncommonhacks.com/`, ``, `rgba(124, 61, 29, 1)`, ``, `desk1-min.png`,
+                    `desk2-min.png`, `desk3-min.png`, `mobile1-min.png` ];
+
+export const rfc = [`development`, `4`, `Run for Cover`,
                     `Website built for the University of Chicago's all-male A Cappella group,
                     Run for Cover. First designed in Sketch, then created with HTML, CSS, and jQuery.`,
                     `http://isdebomb.com/rfc`, ``, `rgba(22, 85, 53, 1)`, ``, `desk1-min.png`, `mobile1-min.png`,
                     `desk2-min.png`, `mobile2-min.png`, `desk3-min.png`, `mobile3-min.png`, `desk4-min.png`, `mobile4-min.png`];
 
-export const hh = [`development`, `2`, `Personal`, `Website built at Hack Harvard. This was built to demo
+export const hh = [`development`, `5`, `Personal`, `Website built at Hack Harvard. This was built to demo
                     a potential application that hospitals could use in order to significantly decrease wait times in the ER.
                     Users create an account, and enter their health information. This is then saved. When they need to go the ER,
                     they / a family member can login, speak their injury to the application, and the application will then
@@ -13,35 +30,35 @@ export const hh = [`development`, `2`, `Personal`, `Website built at Hack Harvar
                     made it to the hospital, the hospital would be ready to receive them. At the very least, the hospital would have
                     the patient's health information on hand immediately. *Disclaimer: Google has since changed the way their location
                     API works, and the location functionality unfortunately no longer works.*`, `http://isdebomb.com/hh`, ``,
-                    `rgba(37, 105, 135, 1)`, ``, `desk1-min.png`, `mobile1-min.png`, `desk2-min.png`, `desk3-min.png`,
+                    `rgba(158, 128, 89, 1)`, ``, `desk1-min.png`, `mobile1-min.png`, `desk2-min.png`, `desk3-min.png`,
                     `desk4-min.png`];
 
-export const stmcoc = [`development`, `3`, `St. Mary's Coptic Church`, `Website built for St. Mary's Coptic Orthodox Church in Ambridge, PA,
+export const stmcoc = [`development`, `6`, `St. Mary's Coptic Church`, `Website built for St. Mary's Coptic Orthodox Church in Ambridge, PA,
                         to inform church congregation and community members of church service times, activities and fundraisers. It is still
                         maintained by me.`, `http://stmarypittsburgh.org/`, ``, `rgba(102, 40, 53, 1)`, ``,
                         `desk1-min.png`, `mobile1-min.png`, `desk2-min.png`, `mobile2-min.png`, `desk3-min.png`, `mobile3-min.png`,
                         `desk4-min.png`, `mobile4-min.png`, `desk5-min.png`, `mobile5-min.png`, `desk6-min.png`, `mobile6-min.png`,
                         `desk7-min.png`, `mobile7-min.png`, `desk8-min.png`, `mobile8-min.png`];
 
-export const uofc = [`development`, `4`, `University of Chicago`, `Twilio Application built for University of Chicago students. It allowed
+export const uofc = [`development`, `7`, `University of Chicago`, `Twilio Application built for University of Chicago students. It allowed
                     students to text their classes to a number and it would return their finals' schedule for them. It is not updated for
                     the current school year. Text 'CMSC 15400 1' or any class dept., number, and section that was valid Spring Quarter of
                     2016 to (412)-253-4757 to test it out.`, ``, ``, `rgba(28, 96, 26, 1)`, ``, `desk1-min.png`,
                     `mobile1-min.png`];
 
-export const uncommon = [`development`, `5`, `Personal`, `iOS Application designed and built at UChicago's Uncommon Hacks. It
+export const uncommon = [`development`, `8`, `Personal`, `iOS Application designed and built at UChicago's Uncommon Hacks. It
                         allows people to take pictures of their receipts, and then reminds them when to return items, keeps track
                         of their expenses, etc. It won JP Morgan Chase's Best UI/UX prize. It is not currently on the App Store.`,
                         ``, `http://isdebomb.com/uncommon/design.pdf`, `rgba(75, 79, 90, 1)`, `visible`, `mobile1-min.png`,
                         `mobile2-min.png`, `mobile3-min.png`, `mobile4-min.png`, `mobile5-min.png`, `mobile6-min.png`, `mobile7-min.png`];
 
-export const calc = [`development`, `6`, `Personal`, `iOS Application designed and built for personal use. It is a simple calculator app -
+export const calc = [`development`, `9`, `Personal`, `iOS Application designed and built for personal use. It is a simple calculator app -
                     however, what distinguishes it from the generic iOS calculator app is its ability to handle full expressions. For
                     example, it is possible to enter (4+5-9)/(sqrt(10*4)), and the calculator will evaluate this. In addition, users
                     can select from several different gradient backgrounds to customize the look of the app.`, ``, ``,
                     `rgba(45, 36, 97, 1)`, ``, `mobile1-min.png`, `mobile2-min.png`, `mobile3-min.png`, `mobile4-min.png`];
 
-export const old = [`development`, `7`, `Personal`, `This site is the fourth version of my personal website. While it is by far the
+export const old = [`development`, `10`, `Personal`, `This site is the fourth version of my personal website. While it is by far the
                     most user-friendly and informative of the four, everyone has to start somewhere! Links to the past three websites
                     can be found below. Click on the link to view v3, or tack v1 or v2 onto it to view the first or second iteration.`,
                     `http://isdebomb.com/`, ``, `rgba(63, 54, 42, 1)`, ``,
