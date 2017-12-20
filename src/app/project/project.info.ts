@@ -1,7 +1,7 @@
 export const hhhack = [`development`, `1`, `Uncommon Hacks`,
                     `Website designed and built for the University of Chicago's annual hackathon, Uncommon Hacks.
                     It contains no javascript - everything is pure HTML and CSS, including the animations.`,
-                    `http://uncommonhacks.com/`, ``, `rgba(17, 30, 96, 1)`, ``, `desk1-min.png`, `mobile1-min.png`,
+                    `http://uncommonhacks.com/`, ``, `rgba(133, 40, 79, 1)`, ``, `desk1-min.png`, `mobile1-min.png`,
                     `desk2-min.png`, `mobile2-min.png`, `desk3-min.png`, `mobile3-min.png`, `desk4-min.png`, `mobile4-min.png`];
 
 export const hhmake = [`development`, `2`, `Uncommon Hacks`,
