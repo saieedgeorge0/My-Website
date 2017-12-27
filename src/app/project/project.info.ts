@@ -18,7 +18,7 @@ export const hhlanding = [`development`, `3`, `Uncommon Hacks`,
 export const rfc = [`development`, `4`, `Run for Cover`,
                     `Website built for the University of Chicago's all-male A Cappella group,
                     Run for Cover. First designed in Sketch, then created with HTML, CSS, and jQuery.`,
-                    `http://isdebomb.com/rfc`, ``, `rgba(22, 85, 53, 1)`, ``, `desk1-min.png`, `mobile1-min.png`,
+                    `http://runforcover.uchicago.edu/`, ``, `rgba(22, 85, 53, 1)`, ``, `desk1-min.png`, `mobile1-min.png`,
                     `desk2-min.png`, `mobile2-min.png`, `desk3-min.png`, `mobile3-min.png`, `desk4-min.png`, `mobile4-min.png`];
 
 export const hh = [`development`, `5`, `Personal`, `Website built at Hack Harvard. This was built to demo
@@ -29,7 +29,7 @@ export const hh = [`development`, `5`, `Personal`, `Website built at Hack Harvar
                     injury and health information and insert them into a queue to be seen appropriately. Ideally, by the time the patient
                     made it to the hospital, the hospital would be ready to receive them. At the very least, the hospital would have
                     the patient's health information on hand immediately. *Disclaimer: Google has since changed the way their location
-                    API works, and the location functionality unfortunately no longer works.*`, `http://isdebomb.com/hh`, ``,
+                    API works, and the location functionality unfortunately no longer works.*`, `http://hh.isdebomb.com/`, ``,
                     `rgba(158, 128, 89, 1)`, ``, `desk1-min.png`, `mobile1-min.png`, `desk2-min.png`, `desk3-min.png`,
                     `desk4-min.png`];
 
@@ -49,7 +49,7 @@ export const uofc = [`development`, `7`, `University of Chicago`, `Twilio Applic
 export const uncommon = [`development`, `8`, `Personal`, `iOS Application designed and built at UChicago's Uncommon Hacks. It
                         allows people to take pictures of their receipts, and then reminds them when to return items, keeps track
                         of their expenses, etc. It won JP Morgan Chase's Best UI/UX prize. It is not currently on the App Store.`,
-                        ``, `http://isdebomb.com/uncommon/design.pdf`, `rgba(75, 79, 90, 1)`, `visible`, `mobile1-min.png`,
+                        ``, `http://uncommon.isdebomb.com/`, `rgba(75, 79, 90, 1)`, `visible`, `mobile1-min.png`,
                         `mobile2-min.png`, `mobile3-min.png`, `mobile4-min.png`, `mobile5-min.png`, `mobile6-min.png`, `mobile7-min.png`];
 
 export const calc = [`development`, `9`, `Personal`, `iOS Application designed and built for personal use. It is a simple calculator app -
@@ -73,17 +73,17 @@ export const acn = [`design`, `1`, `Accenture`, `This was a re-design I complete
 
 export const fb = [`design`, `2`, `Personal`, `This was a UI 're-design' of Facebook. It was not intended as an attempt to re-design
                     Facebook's user experience - rather, I created it as an attempt to test the skills I had acquired while learning
-                    to use Sketch.`, ``, `http://isdebomb.com/fb/design.png`, `rgba(19, 76, 165, 1)`, ``, `desk1-min.png`];
+                    to use Sketch.`, ``, `http://fb.isdebomb.com/`, `rgba(19, 76, 165, 1)`, ``, `desk1-min.png`];
 
 export const pres = [`design`, `3`, `Personal`, `Presentation designed in Sketch for a final research project.`, ``,
-                    `http://isdebomb.com/pres/research.pdf`, `rgba(33, 92, 69, 1)`, ``, `desk1-min.png`];
+                    `http://research.isdebomb.com/`, `rgba(33, 92, 69, 1)`, ``, `desk1-min.png`];
 
 export const aig = [`design`, `4`, `American International Group`, `Mobile app design created for an AIG concept competition to help
                     lower the number of automobile accidents that take place in the US each year. It won fifth place.`, ``,
-                    `http://isdebomb.com/aig/app.pdf`, `rgba(92, 27, 115, 1)`, `visible`, `desk1-min.png`, `mobile1-min.png`];
+                    `http://aig.isdebomb.com/`, `rgba(92, 27, 115, 1)`, `visible`, `desk1-min.png`, `mobile1-min.png`];
 
 export const uw = [`design`, `5`, `Unaccompanied Women`, `Poster designed to advertise an Unaccompanied Women's (an A Cappella group)
-                    end of year concert.`, ``, `http://isdebomb.com/uw/poster.png`, `rgba(117, 60, 58, 1)`, ``, `desk1-min.png`];
+                    end of year concert.`, ``, `http://uwp.isdebomb.com/`, `rgba(117, 60, 58, 1)`, ``, `desk1-min.png`];
 
 export const ig = [`design`, `6`, `Personal`, `After the introduction of the latest version of Instagram's logo, I used Sketch
                     to attempt to recreate it. I then used sketch to design a possible alternative logo that I thought of.`, ``, ``,
