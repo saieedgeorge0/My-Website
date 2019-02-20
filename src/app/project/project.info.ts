@@ -1,27 +1,64 @@
-export const hhhack = [`development`, `1`, `Uncommon Hacks`,
-                    `Website designed and built for the University of Chicago's annual hackathon, Uncommon Hacks.
-                    It contains no javascript - everything is pure HTML and CSS, including the animations.`,
+export const starter = [`development`, `1`, `Uncommon Hacks`,
+                    `This is a starter website template designed and built for an Intro to Web Dev Workshop taught by me at
+                     the University of Chicago's annual hackathon, Uncommon Hacks.`,
+                    `http://starter.georgesaieed.com/`, ``, `rgba(133, 40, 79, 1)`, ``, `desk1-min.png`, `mobile1-min.png`,
+                    `desk2-min.png`, `mobile2-min.png`, `desk3-min.png`, `mobile3-min.png`, `desk4-min.png`, `mobile4-min.png`];
+
+export const hatsopolous = [`development`, `2`, `Hatsopolous Lab`,
+                    `This is website built for the Hatsopolous Lab at the University of Chicago.`,
+                    `http://nicho.georgesaieed.com/`, ``, `rgba(133, 40, 79, 1)`, ``, `desk1-min.png`, `mobile1-min.png`,
+                    `desk2-min.png`, `mobile2-min.png`, `desk3-min.png`, `mobile3-min.png`, `desk4-min.png`, `mobile4-min.png`];
+
+export const uh2k19 = [`development`, `3`, `Uncommon Hacks`,
+                    `Website built for the University of Chicago's annual hackathon, Uncommon Hacks.`,
+                    `http://uh2k19.georgesaieed.com/`, ``, `rgba(133, 40, 79, 1)`, ``, `desk1-min.png`, `mobile1-min.png`,
+                    `desk2-min.png`, `mobile2-min.png`, `desk3-min.png`, `mobile3-min.png`, `desk4-min.png`, `mobile4-min.png`];
+
+export const neuro = [`development`, `4`, `University of Chicago`,
+                    `Website built for the University of Chicago's Fundamental Neuroscience course, the first course in
+                    the sequence for neuroscience majors.`,
+                    `http://neuro.georgesaieed.com/`, ``, `rgba(133, 40, 79, 1)`, ``, `desk1-min.png`, `mobile1-min.png`,
+                    `desk2-min.png`, `mobile2-min.png`, `desk3-min.png`, `mobile3-min.png`, `desk4-min.png`, `mobile4-min.png`];
+
+export const um2k18 = [`development`, `5`, `Uncommon Hacks`,
+                    `Website designed and built for the University of Chicago's annual make-a-thon (exclusively for UChicago students).`,
+                    `http://um2k18.georgesaieed.com/`, ``, `rgba(133, 40, 79, 1)`, ``, `desk1-min.png`, `mobile1-min.png`,
+                    `desk2-min.png`, `mobile2-min.png`, `desk3-min.png`, `mobile3-min.png`, `desk4-min.png`, `mobile4-min.png`];
+
+export const chrome = [`development`, `6`, `Personal`,
+                    `Chrome Extension that replaces Facebook Messenger wow reacts with a pikachu face.`,
+                    `https://chrome.google.com/webstore/detail/pikachu-ify-plugin/lomlihdbiifcgbdimkflkakpihdmolnc?hl=en`, 
+                    ``, `rgba(133, 40, 79, 1)`, ``, `desk1-min.png`, `mobile1-min.png`,
+                    `desk2-min.png`, `mobile2-min.png`, `desk3-min.png`, `mobile3-min.png`, `desk4-min.png`, `mobile4-min.png`];
+
+export const acacouncil = [`development`, `7`, `UChicago Acacouncil`,
+                    `Website modified from an HTML5 template, built for the University of Chicago's Acacouncil Organization.`,
+                    `http://acacouncil.georgesaieed.com/`, ``, `rgba(133, 40, 79, 1)`, ``, `desk1-min.png`, `mobile1-min.png`,
+                    `desk2-min.png`, `mobile2-min.png`, `desk3-min.png`, `mobile3-min.png`, `desk4-min.png`, `mobile4-min.png`];
+
+export const hhhack = [`development`, `8`, `Uncommon Hacks`,
+                    `Website designed and built for the University of Chicago's annual make-a-thon (exclusively for UChicago students).`,
                     `http://uh2k18.georgesaieed.com/`, ``, `rgba(133, 40, 79, 1)`, ``, `desk1-min.png`, `mobile1-min.png`,
                     `desk2-min.png`, `mobile2-min.png`, `desk3-min.png`, `mobile3-min.png`, `desk4-min.png`, `mobile4-min.png`];
 
-export const hhmake = [`development`, `2`, `Uncommon Hacks`,
+export const hhmake = [`development`, `9`, `Uncommon Hacks`,
                     `Website designed and built for the University of Chicago's annual make-a-thon (exclusively for UChicago students).`,
                     `http://um2k17.georgesaieed.com/`, ``, `rgba(32, 147, 170, 1)`, ``, `desk1-min.png`, `mobile1-min.png`,
                     `desk2-min.png`, `mobile2-min.png`, `desk3-min.png`, `mobile3-min.png`];
 
-export const hhlanding = [`development`, `3`, `Uncommon Hacks`,
+export const hhlanding = [`development`, `10`, `Uncommon Hacks`,
                     `Landing page built for the University of Chicago's annual make-a-thon/hackathon. Contains
                     'garage door'-like animating panels.`,
                     `http://uhlanding.georgesaieed.com/`, ``, `rgba(124, 61, 29, 1)`, ``, `desk1-min.png`,
                     `desk2-min.png`, `desk3-min.png`, `mobile1-min.png` ];
 
-export const rfc = [`development`, `4`, `Run for Cover`,
+export const rfc = [`development`, `11`, `Run for Cover`,
                     `Website built for the University of Chicago's all-male A Cappella group,
                     Run for Cover. First designed in Sketch, then created with HTML, CSS, and jQuery.`,
                     `http://runforcover.uchicago.edu/`, ``, `rgba(22, 85, 53, 1)`, ``, `desk1-min.png`, `mobile1-min.png`,
                     `desk2-min.png`, `mobile2-min.png`, `desk3-min.png`, `mobile3-min.png`, `desk4-min.png`, `mobile4-min.png`];
 
-export const hh = [`development`, `5`, `Personal`, `Website built at Hack Harvard. This was built to demo
+export const hh = [`development`, `12`, `Personal`, `Website built at Hack Harvard. This was built to demo
                     a potential application that hospitals could use in order to significantly decrease wait times in the ER.
                     Users create an account, and enter their health information. This is then saved. When they need to go the ER,
                     they / a family member can login, speak their injury to the application, and the application will then
@@ -33,32 +70,33 @@ export const hh = [`development`, `5`, `Personal`, `Website built at Hack Harvar
                     `rgba(158, 128, 89, 1)`, ``, `desk1-min.png`, `mobile1-min.png`, `desk2-min.png`, `desk3-min.png`,
                     `desk4-min.png`];
 
-export const stmcoc = [`development`, `6`, `St. Mary's Coptic Church`, `Website built for St. Mary's Coptic Orthodox Church in Ambridge, PA,
+export const stmcoc = [`development`, `13`, `St. Mary's Coptic Church`, 
+                        `Website built for St. Mary's Coptic Orthodox Church in Ambridge, PA,
                         to inform church congregation and community members of church service times, activities and fundraisers. It is still
                         maintained by me.`, `http://stmarypittsburgh.org/`, ``, `rgba(102, 40, 53, 1)`, ``,
                         `desk1-min.png`, `mobile1-min.png`, `desk2-min.png`, `mobile2-min.png`, `desk3-min.png`, `mobile3-min.png`,
                         `desk4-min.png`, `mobile4-min.png`, `desk5-min.png`, `mobile5-min.png`, `desk6-min.png`, `mobile6-min.png`,
                         `desk7-min.png`, `mobile7-min.png`, `desk8-min.png`, `mobile8-min.png`];
 
-export const uofc = [`development`, `7`, `University of Chicago`, `Twilio Application built for University of Chicago students. It allowed
+export const uofc = [`development`, `14`, `University of Chicago`, `Twilio Application built for University of Chicago students. It allowed
                     students to text their classes to a number and it would return their finals' schedule for them. It is not updated for
                     the current school year. Text 'CMSC 15400 1' or any class dept., number, and section that was valid Spring Quarter of
                     2016 to (412)-253-4757 to test it out.`, ``, ``, `rgba(28, 96, 26, 1)`, ``, `desk1-min.png`,
                     `mobile1-min.png`];
 
-export const uncommon = [`development`, `8`, `Personal`, `iOS Application designed and built at UChicago's Uncommon Hacks. It
+export const uncommon = [`development`, `15`, `Personal`, `iOS Application designed and built at UChicago's Uncommon Hacks. It
                         allows people to take pictures of their receipts, and then reminds them when to return items, keeps track
                         of their expenses, etc. It won JP Morgan Chase's Best UI/UX prize. It is not currently on the App Store.`,
                         ``, `http://files.georgesaieed.com/sr.pdf`, `rgba(75, 79, 90, 1)`, `visible`, `mobile1-min.png`,
                         `mobile2-min.png`, `mobile3-min.png`, `mobile4-min.png`, `mobile5-min.png`, `mobile6-min.png`, `mobile7-min.png`];
 
-export const calc = [`development`, `9`, `Personal`, `iOS Application designed and built for personal use. It is a simple calculator app -
+export const calc = [`development`, `16`, `Personal`, `iOS Application designed and built for personal use. It is a simple calculator app -
                     however, what distinguishes it from the generic iOS calculator app is its ability to handle full expressions. For
                     example, it is possible to enter (4+5-9)/(sqrt(10*4)), and the calculator will evaluate this. In addition, users
                     can select from several different gradient backgrounds to customize the look of the app.`, ``, ``,
                     `rgba(45, 36, 97, 1)`, ``, `mobile1-min.png`, `mobile2-min.png`, `mobile3-min.png`, `mobile4-min.png`];
 
-export const old = [`development`, `10`, `Personal`, `This site is the fourth version of my personal website. While it is by far the
+export const old = [`development`, `17`, `Personal`, `This site is the fourth version of my personal website. While it is by far the
                     most user-friendly and informative of the four, everyone has to start somewhere! Links to the past three websites
                     can be found below. Click on the link to view v3, or replace v3 with v1 or v2 to view either of the first two
                     iterations.`, `http://v3.georgesaieed.com/`, ``, `rgba(63, 54, 42, 1)`, ``,
