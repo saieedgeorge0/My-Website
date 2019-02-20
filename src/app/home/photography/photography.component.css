@@ -237,7 +237,56 @@
 .spain {
     background: url('./../../../assets/img/photography/spain/spain-back.jpg');
     background-size: cover;
+    animation: container-fade 2s;
+}
+
+.mru {
+    background: url('./../../../assets/img/photography/mru/mru-back.jpg');
+    background-size: cover;
+    animation: container-fade 1s;
+}
+
+.chicago {
+    background: url('./../../../assets/img/photography/chicago/chicago-back.jpg');
+    background-size: cover;
+    background-position: right;
+    animation: container-fade 1.5s;
+}
+
+.engagement {
+    background: url('./../../../assets/img/photography/engagement/engagement-back.jpg');
+    background-size: cover;
+    background-position: center;
+    animation: container-fade 2s;
+}
+
+.newyork {
+    background: url('./../../../assets/img/photography/nyc/nyc-back.jpg');
+    background-size: cover;
+    background-position: center;
+    animation: container-fade 2s;
+}
+
+.photoshop {
+    background: url('./../../../assets/img/photography/photoshop/photoshop-back.png');
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
     animation: container-fade 0.5s;
+}
+
+.paris {
+    background: url('./../../../assets/img/photography/paris/paris-back.jpg');
+    background-size: cover;
+    background-position: center;
+    animation: container-fade 2s;
+}
+
+.niagara {
+    background: url('./../../../assets/img/photography/niagara/niagara-back.jpg');
+    background-size: cover;
+    background-position: center;
+    animation: container-fade 2s;
 }
 
 @keyframes container-fade {

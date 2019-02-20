@@ -1,5 +1,5 @@
 <div class="page">
-    <span class="client">{{currProj}}</span>
+    <span class="client">{{titleProj}}</span>
     <div class="header">
         <div class="returnhome" (click)="returnHome()">
             <svg class="returnhome-svg" width="82px" height="82px" viewBox="0 0 82 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -22,6 +22,14 @@
         <span class="header__name">Saieed</span>
     </div>
     <div class="gallery">
-        <gallery [flexBorderSize]="10" [flexImageSize]="7" [galleryName]="'spain'"></gallery>
+        <gallery *ngIf="currProj == 'Spain'" [flexBorderSize]="10" [flexImageSize]="7" [galleryName]="'spain'"></gallery>
+        <gallery *ngIf="currProj == 'Mru'" [flexBorderSize]="10" [flexImageSize]="7" [galleryName]="'mru'"></gallery>
+        <gallery *ngIf="currProj == 'Photoshop'" [flexBorderSize]="10" [flexImageSize]="7" [galleryName]="'photoshop'"></gallery>
+        <gallery *ngIf="currProj == 'Chicago'" [flexBorderSize]="10" [flexImageSize]="7" [galleryName]="'chicago'"></gallery>
+        <gallery *ngIf="currProj == 'Newyork'" [flexBorderSize]="10" [flexImageSize]="7" [galleryName]="'newyork'"></gallery>
+        <gallery *ngIf="currProj == 'Engagement'" [flexBorderSize]="10" [flexImageSize]="7" [galleryName]="'engagement'"></gallery>
+        <gallery *ngIf="currProj == 'Paris'" [flexBorderSize]="10" [flexImageSize]="7" [galleryName]="'paris'"></gallery>
+        <gallery *ngIf="currProj == 'Niagara'" [flexBorderSize]="10" [flexImageSize]="7" [galleryName]="'niagara'"></gallery>
+
     </div>
 </div>
