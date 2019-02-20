@@ -1,7 +1,7 @@
 export const starter = [`development`, `1`, `Uncommon Hacks`,
                     `This is a starter website template designed and built for an Intro to Web Dev Workshop taught by me at
                      the University of Chicago's annual hackathon, Uncommon Hacks.`,
-                    `http://starter.georgesaieed.com/`, ``, `rgba(133, 40, 79, 1)`, ``, `desk1-min.png`, `mobile1-min.png`,
+                    `http://starter.georgesaieed.com/`, ``, `rgba(206, 98, 140, 1)`, ``, `desk1-min.png`, `mobile1-min.png`,
                     `desk2-min.png`, `mobile2-min.png`, `desk3-min.png`, `mobile3-min.png`, `desk4-min.png`, `mobile4-min.png`];
 
 export const hatsopolous = [`development`, `2`, `Hatsopolous Lab`,
