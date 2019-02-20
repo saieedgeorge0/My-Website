@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 export const starter = [`development`, `1`, `Uncommon Hacks`,
                     `This is a starter website template designed and built for an Intro to Web Dev Workshop taught by me at
                      the University of Chicago's annual hackathon, Uncommon Hacks.`,
@@ -40,12 +39,6 @@ export const acacouncil = [`development`, `7`, `UChicago Acacouncil`,
 export const hhhack = [`development`, `8`, `Uncommon Hacks`,
                     `Website designed and built for the University of Chicago's annual make-a-thon (exclusively for UChicago students).`,
                     `http://uh2k18.georgesaieed.com/`, ``, `rgba(133, 40, 79, 1)`, ``, `desk1-min.png`, `mobile1-min.png`,
-=======
-export const hhhack = [`development`, `1`, `Uncommon Hacks`,
-                    `Website designed and built for the University of Chicago's annual hackathon, Uncommon Hacks.
-                    It contains no javascript - everything is pure HTML and CSS, including the animations.`,
-                    `http://uncommonhacks.com/`, ``, `rgba(133, 40, 79, 1)`, ``, `desk1-min.png`, `mobile1-min.png`,
->>>>>>> parent of 85ca7dd... update photography portion of site
                     `desk2-min.png`, `mobile2-min.png`, `desk3-min.png`, `mobile3-min.png`, `desk4-min.png`, `mobile4-min.png`];
 
 export const hhmake = [`development`, `9`, `Uncommon Hacks`,
