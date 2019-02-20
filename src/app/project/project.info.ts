@@ -70,7 +70,7 @@ export const hh = [`development`, `12`, `Personal`, `Website built at Hack Harva
                     `rgba(158, 128, 89, 1)`, ``, `desk1-min.png`, `mobile1-min.png`, `desk2-min.png`, `desk3-min.png`,
                     `desk4-min.png`];
 
-export const stmcoc = [`development`, `13`, `St. Mary's Coptic Church`, 
+export const stmcoc = [`development`, `13`, `St. Mary's Coptic Church`,
                         `Website built for St. Mary's Coptic Orthodox Church in Ambridge, PA,
                         to inform church congregation and community members of church service times, activities and fundraisers. It is still
                         maintained by me.`, `http://stmarypittsburgh.org/`, ``, `rgba(102, 40, 53, 1)`, ``,
