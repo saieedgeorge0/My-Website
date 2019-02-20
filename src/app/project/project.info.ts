@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 export const starter = [`development`, `1`, `Uncommon Hacks`,
                     `This is a starter website template designed and built for an Intro to Web Dev Workshop taught by me at
                      the University of Chicago's annual hackathon, Uncommon Hacks.`,
@@ -39,17 +40,23 @@ export const acacouncil = [`development`, `7`, `UChicago Acacouncil`,
 export const hhhack = [`development`, `8`, `Uncommon Hacks`,
                     `Website designed and built for the University of Chicago's annual make-a-thon (exclusively for UChicago students).`,
                     `http://uh2k18.georgesaieed.com/`, ``, `rgba(133, 40, 79, 1)`, ``, `desk1-min.png`, `mobile1-min.png`,
+=======
+export const hhhack = [`development`, `1`, `Uncommon Hacks`,
+                    `Website designed and built for the University of Chicago's annual hackathon, Uncommon Hacks.
+                    It contains no javascript - everything is pure HTML and CSS, including the animations.`,
+                    `http://uncommonhacks.com/`, ``, `rgba(133, 40, 79, 1)`, ``, `desk1-min.png`, `mobile1-min.png`,
+>>>>>>> parent of 85ca7dd... update photography portion of site
                     `desk2-min.png`, `mobile2-min.png`, `desk3-min.png`, `mobile3-min.png`, `desk4-min.png`, `mobile4-min.png`];
 
 export const hhmake = [`development`, `9`, `Uncommon Hacks`,
                     `Website designed and built for the University of Chicago's annual make-a-thon (exclusively for UChicago students).`,
-                    `http://um2k17.georgesaieed.com/`, ``, `rgba(32, 147, 170, 1)`, ``, `desk1-min.png`, `mobile1-min.png`,
+                    `http://make.uncommonhacks.com/`, ``, `rgba(32, 147, 170, 1)`, ``, `desk1-min.png`, `mobile1-min.png`,
                     `desk2-min.png`, `mobile2-min.png`, `desk3-min.png`, `mobile3-min.png`];
 
 export const hhlanding = [`development`, `10`, `Uncommon Hacks`,
                     `Landing page built for the University of Chicago's annual make-a-thon/hackathon. Contains
                     'garage door'-like animating panels.`,
-                    `http://uhlanding.georgesaieed.com/`, ``, `rgba(124, 61, 29, 1)`, ``, `desk1-min.png`,
+                    `http://landing.uncommonhacks.com/`, ``, `rgba(124, 61, 29, 1)`, ``, `desk1-min.png`,
                     `desk2-min.png`, `desk3-min.png`, `mobile1-min.png` ];
 
 export const rfc = [`development`, `11`, `Run for Cover`,
@@ -66,7 +73,7 @@ export const hh = [`development`, `12`, `Personal`, `Website built at Hack Harva
                     injury and health information and insert them into a queue to be seen appropriately. Ideally, by the time the patient
                     made it to the hospital, the hospital would be ready to receive them. At the very least, the hospital would have
                     the patient's health information on hand immediately. *Disclaimer: Google has since changed the way their location
-                    API works, and the location functionality unfortunately no longer works.*`, `http://er.georgesaieed.com/`, ``,
+                    API works, and the location functionality unfortunately no longer works.*`, `http://hh.isdebomb.com/`, ``,
                     `rgba(158, 128, 89, 1)`, ``, `desk1-min.png`, `mobile1-min.png`, `desk2-min.png`, `desk3-min.png`,
                     `desk4-min.png`];
 
@@ -87,7 +94,7 @@ export const uofc = [`development`, `14`, `University of Chicago`, `Twilio Appli
 export const uncommon = [`development`, `15`, `Personal`, `iOS Application designed and built at UChicago's Uncommon Hacks. It
                         allows people to take pictures of their receipts, and then reminds them when to return items, keeps track
                         of their expenses, etc. It won JP Morgan Chase's Best UI/UX prize. It is not currently on the App Store.`,
-                        ``, `http://files.georgesaieed.com/sr.pdf`, `rgba(75, 79, 90, 1)`, `visible`, `mobile1-min.png`,
+                        ``, `http://uncommon.isdebomb.com/`, `rgba(75, 79, 90, 1)`, `visible`, `mobile1-min.png`,
                         `mobile2-min.png`, `mobile3-min.png`, `mobile4-min.png`, `mobile5-min.png`, `mobile6-min.png`, `mobile7-min.png`];
 
 export const calc = [`development`, `16`, `Personal`, `iOS Application designed and built for personal use. It is a simple calculator app -
@@ -98,8 +105,8 @@ export const calc = [`development`, `16`, `Personal`, `iOS Application designed 
 
 export const old = [`development`, `17`, `Personal`, `This site is the fourth version of my personal website. While it is by far the
                     most user-friendly and informative of the four, everyone has to start somewhere! Links to the past three websites
-                    can be found below. Click on the link to view v3, or replace v3 with v1 or v2 to view either of the first two
-                    iterations.`, `http://v3.georgesaieed.com/`, ``, `rgba(63, 54, 42, 1)`, ``,
+                    can be found below. Click on the link to view v3, or tack v1 or v2 onto it to view the first or second iteration.`,
+                    `http://isdebomb.com/`, ``, `rgba(63, 54, 42, 1)`, ``,
                     `desk1-min.png`, `mobile1-min.png`, `desk2-min.png`, `mobile2-min.png`, `desk4-min.png`, `mobile4-min.png`,
                     `desk5-min.png`, `mobile5-min.png`, `desk6-min.png`, `mobile6-min.png`, `desk7-min.png`, `mobile7-min.png`];
 
@@ -111,17 +118,17 @@ export const acn = [`design`, `1`, `Accenture`, `This was a re-design I complete
 
 export const fb = [`design`, `2`, `Personal`, `This was a UI 're-design' of Facebook. It was not intended as an attempt to re-design
                     Facebook's user experience - rather, I created it as an attempt to test the skills I had acquired while learning
-                    to use Sketch.`, ``, `http://files.georgesaieed.com/fb.png`, `rgba(19, 76, 165, 1)`, ``, `desk1-min.png`];
+                    to use Sketch.`, ``, `http://fb.isdebomb.com/`, `rgba(19, 76, 165, 1)`, ``, `desk1-min.png`];
 
 export const pres = [`design`, `3`, `Personal`, `Presentation designed in Sketch for a final research project.`, ``,
-                    `http://files.georgesaieed.com/rp.pdf`, `rgba(33, 92, 69, 1)`, ``, `desk1-min.png`];
+                    `http://research.isdebomb.com/`, `rgba(33, 92, 69, 1)`, ``, `desk1-min.png`];
 
 export const aig = [`design`, `4`, `American International Group`, `Mobile app design created for an AIG concept competition to help
                     lower the number of automobile accidents that take place in the US each year. It won fifth place.`, ``,
-                    `http://files.georgesaieed.com/aig.pdf`, `rgba(92, 27, 115, 1)`, `visible`, `desk1-min.png`, `mobile1-min.png`];
+                    `http://aig.isdebomb.com/`, `rgba(92, 27, 115, 1)`, `visible`, `desk1-min.png`, `mobile1-min.png`];
 
 export const uw = [`design`, `5`, `Unaccompanied Women`, `Poster designed to advertise an Unaccompanied Women's (an A Cappella group)
-                    end of year concert.`, ``, `http://file.georgesaieed.com/uw.png`, `rgba(117, 60, 58, 1)`, ``, `desk1-min.png`];
+                    end of year concert.`, ``, `http://uwp.isdebomb.com/`, `rgba(117, 60, 58, 1)`, ``, `desk1-min.png`];
 
 export const ig = [`design`, `6`, `Personal`, `After the introduction of the latest version of Instagram's logo, I used Sketch
                     to attempt to recreate it. I then used sketch to design a possible alternative logo that I thought of.`, ``, ``,
