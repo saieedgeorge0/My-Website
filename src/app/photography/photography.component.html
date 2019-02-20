@@ -22,6 +22,13 @@
         <span class="header__name">Saieed</span>
     </div>
     <div class="gallery">
-        <gallery [flexBorderSize]="10" [flexImageSize]="7" [galleryName]="'spain'"></gallery>
+        <gallery *ngIf="currProj === 'Spain'" [flexBorderSize]="10" [flexImageSize]="7" [galleryName]="'spain'"></gallery>
+        <gallery *ngIf="currProj === 'Niagara'" [flexBorderSize]="10" [flexImageSize]="7" [galleryName]="'niagara'"></gallery>
+        <gallery *ngIf="currProj === 'Chicago'" [flexBorderSize]="10" [flexImageSize]="7" [galleryName]="'chicago'"></gallery>
+        <gallery *ngIf="currProj === 'Newyork'" [flexBorderSize]="10" [flexImageSize]="7" [galleryName]="'newyork'"></gallery>
+        <gallery *ngIf="currProj === 'Engagement'" [flexBorderSize]="10" [flexImageSize]="7" [galleryName]="'engagement'"></gallery>
+        <gallery *ngIf="currProj === 'Paris'" [flexBorderSize]="10" [flexImageSize]="7" [galleryName]="'paris'"></gallery>
+        <gallery *ngIf="currProj === 'Photoshop'" [flexBorderSize]="10" [flexImageSize]="7" [galleryName]="'photoshop'"></gallery>
+        <gallery *ngIf="currProj === 'Mru'" [flexBorderSize]="10" [flexImageSize]="7" [galleryName]="'mru'"></gallery>
     </div>
 </div>

@@ -11,11 +11,25 @@ import { Location } from '@angular/common';
 export class PhotographyProjComponent {
 
   public currProj: string;
+  public thisProj: string;
 
   constructor(private location: Location, private router: Router, private homeService: HomeService, private route: ActivatedRoute) {
     router.events.subscribe((val) => {
         window.scrollTo(0, 0);
         this.currProj = location.path().slice(13, 14).toUpperCase() + location.path().slice(14);
+        this.thisProj = this.currProj;
+        if (this.thisProj === 'Mru') {
+          this.thisProj = 'University Cup';
+        }
+        if (this.thisProj === 'Newyork') {
+          this.thisProj = 'New York City';
+        }
+        if (this.thisProj === 'Engagement') {
+          this.thisProj = 'D & MM\'s Engagement';
+        }
+        if (this.thisProj === 'Niagara') {
+          this.thisProj = 'Niagara Falls';
+        }
     });
   }
 
