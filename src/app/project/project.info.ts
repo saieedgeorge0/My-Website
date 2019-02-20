@@ -5,7 +5,7 @@ export const starter = [`development`, `1`, `Uncommon Hacks`,
                     `desk2-min.png`, `mobile2-min.png`, `desk3-min.png`, `mobile3-min.png`, `desk4-min.png`, `mobile4-min.png`];
 
 export const hatsopolous = [`development`, `2`, `Hatsopolous Lab`,
-                    `This is website built for the Hatsopolous Lab at the University of Chicago.`,
+                    `This is a website built for the Hatsopolous Lab at the University of Chicago.`,
                     `http://nicho.georgesaieed.com/`, ``, `rgba(113, 21, 26, 1)`, ``, `desk1-min.png`, `mobile1-min.png`,
                     `desk2-min.png`, `mobile2-min.png`, `desk3-min.png`, `mobile3-min.png`, `desk4-min.png`, `mobile4-min.png`];
 
