@@ -1,39 +1,39 @@
 export const starter = [`development`, `1`, `Uncommon Hacks`,
                     `This is a starter website template designed and built for an Intro to Web Dev Workshop taught by me at
                      the University of Chicago's annual hackathon, Uncommon Hacks.`,
-                    `http://starter.georgesaieed.com/`, ``, `rgba(206, 98, 140, 1)`, ``, `desk1-min.png`, `mobile1-min.png`,
+                    `http://starter.georgesaieed.com/`, ``, `rgba(32, 147, 170, 1)`, ``, `desk1-min.png`, `mobile1-min.png`,
                     `desk2-min.png`, `mobile2-min.png`, `desk3-min.png`, `mobile3-min.png`, `desk4-min.png`, `mobile4-min.png`];
 
 export const hatsopolous = [`development`, `2`, `Hatsopolous Lab`,
                     `This is website built for the Hatsopolous Lab at the University of Chicago.`,
-                    `http://nicho.georgesaieed.com/`, ``, `rgba(133, 40, 79, 1)`, ``, `desk1-min.png`, `mobile1-min.png`,
+                    `http://nicho.georgesaieed.com/`, ``, `rgba(113, 21, 26, 1)`, ``, `desk1-min.png`, `mobile1-min.png`,
                     `desk2-min.png`, `mobile2-min.png`, `desk3-min.png`, `mobile3-min.png`, `desk4-min.png`, `mobile4-min.png`];
 
 export const uh2k19 = [`development`, `3`, `Uncommon Hacks`,
                     `Website built for the University of Chicago's annual hackathon, Uncommon Hacks.`,
-                    `http://uh2k19.georgesaieed.com/`, ``, `rgba(133, 40, 79, 1)`, ``, `desk1-min.png`, `mobile1-min.png`,
+                    `http://uh2k19.georgesaieed.com/`, ``, `rgba(240, 129, 151, 1)`, ``, `desk1-min.png`, `mobile1-min.png`,
                     `desk2-min.png`, `mobile2-min.png`, `desk3-min.png`, `mobile3-min.png`, `desk4-min.png`, `mobile4-min.png`];
 
 export const neuro = [`development`, `4`, `University of Chicago`,
                     `Website built for the University of Chicago's Fundamental Neuroscience course, the first course in
                     the sequence for neuroscience majors.`,
-                    `http://neuro.georgesaieed.com/`, ``, `rgba(133, 40, 79, 1)`, ``, `desk1-min.png`, `mobile1-min.png`,
+                    `http://neuro.georgesaieed.com/`, ``, `rgba(230, 170, 67, 1)`, ``, `desk1-min.png`, `mobile1-min.png`,
                     `desk2-min.png`, `mobile2-min.png`, `desk3-min.png`, `mobile3-min.png`, `desk4-min.png`, `mobile4-min.png`];
 
 export const um2k18 = [`development`, `5`, `Uncommon Hacks`,
                     `Website designed and built for the University of Chicago's annual make-a-thon (exclusively for UChicago students).`,
-                    `http://um2k18.georgesaieed.com/`, ``, `rgba(133, 40, 79, 1)`, ``, `desk1-min.png`, `mobile1-min.png`,
+                    `http://um2k18.georgesaieed.com/`, ``, `rgba(117, 155, 124, 1)`, ``, `desk1-min.png`, `mobile1-min.png`,
                     `desk2-min.png`, `mobile2-min.png`, `desk3-min.png`, `mobile3-min.png`, `desk4-min.png`, `mobile4-min.png`];
 
 export const chrome = [`development`, `6`, `Personal`,
                     `Chrome Extension that replaces Facebook Messenger wow reacts with a pikachu face.`,
                     `https://chrome.google.com/webstore/detail/pikachu-ify-plugin/lomlihdbiifcgbdimkflkakpihdmolnc?hl=en`, 
-                    ``, `rgba(133, 40, 79, 1)`, ``, `desk1-min.png`, `mobile1-min.png`,
+                    ``, `rgba(29, 88, 181, 1)`, ``, `desk1-min.png`, `mobile1-min.png`,
                     `desk2-min.png`, `mobile2-min.png`, `desk3-min.png`, `mobile3-min.png`, `desk4-min.png`, `mobile4-min.png`];
 
 export const acacouncil = [`development`, `7`, `UChicago Acacouncil`,
                     `Website modified from an HTML5 template, built for the University of Chicago's Acacouncil Organization.`,
-                    `http://acacouncil.georgesaieed.com/`, ``, `rgba(133, 40, 79, 1)`, ``, `desk1-min.png`, `mobile1-min.png`,
+                    `http://acacouncil.georgesaieed.com/`, ``, `rgba(112, 97, 144, 1)`, ``, `desk1-min.png`, `mobile1-min.png`,
                     `desk2-min.png`, `mobile2-min.png`, `desk3-min.png`, `mobile3-min.png`, `desk4-min.png`, `mobile4-min.png`];
 
 export const hhhack = [`development`, `8`, `Uncommon Hacks`,

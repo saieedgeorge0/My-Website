@@ -253,39 +253,75 @@
 }
 
 .dev-starter {
-    background-color: rgba(206, 98, 140, 1);
-    box-shadow: -9px 9px 0 rgba(206, 98, 140, 0.23);
+    background-color: rgba(32, 147, 170, 1);
+    box-shadow: -9px 9px 0 rgba(32, 147, 170, 0.23);
     animation: container-fade 0.5s;
+}
+
+.dev-hatsopolous {
+    background-color: rgba(113, 21, 26, 1);
+    box-shadow: -9px 9px 0 rgba(113, 21, 26, 0.23);
+    animation: container-fade 1s;
+}
+
+.dev-uh2k19 {
+    background-color: rgba(240, 129, 151, 1);
+    box-shadow: -9px 9px 0 rgba(240, 129, 151, 0.23);
+    animation: container-fade 1.5s;
+}
+
+.dev-neuro {
+    background-color: rgba(230, 170, 67, 1);
+    box-shadow: -9px 9px 0 rgba(230, 170, 67, 0.23);
+    animation: container-fade 2s;
+}
+
+.dev-um2k18 {
+    background-color: rgba(117, 155, 124, 1);
+    box-shadow: -9px 9px 0 rgba(117, 155, 124, 0.23);
+    animation: container-fade 2.5s;
+}   
+
+.dev-chrome {
+    background-color: rgba(29, 88, 181, 1);
+    box-shadow: -9px 9px 0 rgba(29, 88, 181, 0.23);
+    animation: container-fade 3s;
+}
+
+.dev-acacouncil {
+    background-color: rgba(112, 97, 144, 1);
+    box-shadow: -9px 9px 0 rgba(112, 97, 144, 0.23);
+    animation: container-fade 3s;
 }
 
 .dev-hhhack {
     background-color: rgba(133, 40, 79, 1);
     box-shadow: -9px 9px 0 rgba(133, 40, 79, 0.23);
-    animation: container-fade 0.5s;
+    animation: container-fade 3s;
 }
 
 .dev-hhmake {
     background-color: rgba(32, 147, 170, 1);
     box-shadow: -9px 9px 0 rgba(32, 147, 170, 0.23);
-    animation: container-fade 1s;
+    animation: container-fade 3s;
 }
 
 .dev-hhlanding {
     background-color: rgba(124, 61, 29, 1);
     box-shadow: -9px 9px 0 rgba(124, 61, 29, 0.23);
-    animation: container-fade 1.5s;
+    animation: container-fade 3s;
 }
 
 .dev-rfc {
     background-color: rgba(22, 85, 53, 1);
     box-shadow: -9px 9px 0 rgba(22, 85, 53, 0.23);
-    animation: container-fade 2s;
+    animation: container-fade 3s;
 }
 
 .hack-harvard {
     background-color: rgba(158, 128, 89, 1);
     box-shadow: -9px 9px 0 rgba(158, 128, 89, 0.23);
-    animation: container-fade 2.5s;
+    animation: container-fade 3s;
 }
 
 .stmcoc {
