@@ -2,7 +2,7 @@ import { Component, OnInit, Input } from '@angular/core';
 import { HomeService } from './../services/home.service';
 import { Router, ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
-import { starter, hatsopolous, uh2k19, neuro, um2k18, chrome, acacouncil,
+import { starter, nicho, uh2k19, neuro, um2k18, chrome, acacouncil,
   hhhack, hhmake, hhlanding, rfc, hh, stmcoc, uofc, uncommon, calc, old, acn, fb, pres, aig, uw, ig, poly } from './project.info';
 
 @Component({
@@ -21,7 +21,7 @@ export class ProjectComponent implements OnInit {
     });
   }
 
-  public dev = ['starter', 'hatsopolous', 'uh2k19', 'neuro', 'um2k18', 'chrome',
+  public dev = ['starter', 'nicho', 'uh2k19', 'neuro', 'um2k18', 'chrome',
   'acacouncil', 'hhhack', 'hhmake', 'hhlanding', 'rfc', 'hh', 'stmcoc', 'uofc', 'uncommon', 'calc', 'old'];
   public des = ['acn', 'fb', 'pres', 'aig', 'uw', 'ig', 'poly'];
   public fwdProj = '';
@@ -39,7 +39,7 @@ export class ProjectComponent implements OnInit {
   public winner: string;
   public images: string[] = [];
 
-  public projects = { starter, hatsopolous, uh2k19, neuro, um2k18, chrome, acacouncil, hhhack, hhmake,
+  public projects = { starter, nicho, uh2k19, neuro, um2k18, chrome, acacouncil, hhhack, hhmake,
     hhlanding, rfc, hh, stmcoc, uofc, uncommon, calc, old, acn, fb, pres, aig, uw, ig, poly };
 
   ngOnInit(): void {
